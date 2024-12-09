@@ -16,7 +16,13 @@
 	position: relative;
 	padding-left: 15px; /* Espacio entre la línea y el texto */
 	border-left: 1px solid rgba(0, 0, 0, 0.1); /* Línea sutil */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
   }
+
+  
   
   /* Ocultar el submenú de idiomas por defecto */
   .menu-item-language .sub-menu {
