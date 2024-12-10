@@ -1,744 +1,1566 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="es-ES">
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="SemiColonWeb" />
-  <link rel="icon" href="img/logoG-png.png" type="image/x-icon" />
-  <!-- Stylesheets
+    <!-- Stylesheets
 	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Montserrat:400,700|Merriweather&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
 
-  <link
-    href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Montserrat:400,700|Merriweather&display=swap"
-    rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="css/dark.css" type="text/css" />
-  <!-- Business Demo Specific Stylesheet  -->
-  <link rel="stylesheet" href="demos/business/business.css" type="text/css" />
-  <!-- Reader's Blog Demo Specific Fonts -->
-  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-  <link rel="stylesheet" href="demos/app-landing/css/fonts.css" type="text/css" />
-  <!-- Bootstrap Switch CSS -->
-  <link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" />
-  <!-- Document Title
-	============================================= -->
-  <title>Grupo iTTel</title>
-</head>
+    <!-- Media Agency Demo Specific Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="demos/app-landing/app-landing.css"
+      type="text/css"
+    />
+    <!-- / -->
 
-<body class="stretched" style="width: 100%;">
-  <!-- Document Wrapper
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="demos/app-landing/css/fonts.css"
+      type="text/css"
+    />
+
+    <!-- Bootstrap Switch CSS -->
+    <link
+      rel="stylesheet"
+      href="css/components/bs-switches.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" />
+
+    <!-- Document Title
 	============================================= -->
-  <div id="wrapper" class="clearfix">
-    <!-- Header
-		============================================= transparent-header dark -->
-    <header id="header" class="full-header" data-sticky-class="not-dark" data-responsive-class="not-dark">
-      <div id="header-wrap">
-        <div class="container">
-          <div class="header-row">
-            <!-- Logo -->
-            <div id="logo">
-              <a href="index.html" class="standard-logo" data-dark-logo="usittelNewRemove"><img src="img/logo.png"
-                  alt=""></a>
-              <a href="index.html" class="retina-logo" data-dark-logo="usittelNewRemove"><img src="img/logo.png"
-                  alt=""></a>
+    <title>Internet en Tandil | Usitel</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header
+        id="header"
+        class="full-header transparent-header dark"
+        data-sticky-class="not-dark"
+        data-responsive-class="not-dark"
+      >
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a
+                  href="demo-app-landing.html"
+                  class="standard-logo"
+                  data-dark-logo="images/logo-dark.png"
+                  >USITEL</a>
+                <a
+                  href="demo-app-landing.html"
+                  class="retina-logo"
+                  data-dark-logo="images/logo-dark@2x.png"
+                  >USITEL</a>
+              </div>
+              <!-- #logo end -->
+
+              <div class="header-misc">
+                <a
+                  href="#"
+                  class="button bg-white text-dark button-light button-rounded color"
+                  >Sign Up</a
+                >
+              </div>
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu not-dark with-arrows">
+                <ul class="menu-container not-dark">
+                  <li class="menu-item current">
+                    <a class="menu-link" href="#"><div>Home</div></a>
+                  </li>
+                  <li class="menu-item mega-menu">
+                    <a class="menu-link" href="#"><div>Menu 1</div></a>
+                    <div
+                      class="mega-menu-content mega-menu-style-2 border-top-0"
+                    >
+                      <div class="container">
+                        <div class="row">
+                          <ul
+                            class="sub-menu-container mega-menu-column col-lg-3"
+                          >
+                            <li class="menu-item">
+                              <div class="widget">
+                                <div
+                                  class="feature-box not-dark fbox-center mb-0"
+                                >
+                                  <div class="fbox-icon mb-4">
+                                    <img
+                                      src="demos/hosting/images/svg/web.svg"
+                                      class="rounded-0 bg-transparent text-left"
+                                      alt="Image"
+                                      style="width: 52px"
+                                    />
+                                  </div>
+                                  <div class="fbox-content">
+                                    <h3 class="font-weight-medium">
+                                      <a href="#">Web Hosting</a>
+                                    </h3>
+                                    <p
+                                      class="d-none d-lg-block mb-0 font-weight-light"
+                                    >
+                                      Is a type of Internet hosting service that
+                                      allows individuals and organizations to
+                                      make their website accessible via the
+                                      World Wide Web.
+                                    </p>
+                                    <a
+                                      href="#"
+                                      class="btn btn-link mt-2 color p-0"
+                                      >Learn More &#8250;</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <ul
+                            class="sub-menu-container mega-menu-column col-lg-3"
+                          >
+                            <li class="menu-item">
+                              <div class="widget">
+                                <div
+                                  class="feature-box not-dark fbox-center mb-0"
+                                >
+                                  <div class="fbox-icon mb-4">
+                                    <img
+                                      src="demos/hosting/images/svg/cloud.svg"
+                                      class="rounded-0 bg-transparent text-left"
+                                      alt="Image"
+                                      style="width: 52px"
+                                    />
+                                  </div>
+                                  <div class="fbox-content">
+                                    <h3 class="font-weight-medium">
+                                      <a href="#">Cloud Hosting</a>
+                                    </h3>
+                                    <p
+                                      class="d-none d-lg-block mb-0 font-weight-light"
+                                    >
+                                      The major benefit cloud hosting offers
+                                      over shared hosting is that it allows you
+                                      to utilize the resources of multiple
+                                      servers.
+                                    </p>
+                                    <a
+                                      href="#"
+                                      class="btn btn-link mt-2 color p-0"
+                                      >Learn More &#8250;</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <ul
+                            class="sub-menu-container mega-menu-column col-lg-3"
+                          >
+                            <li class="menu-item">
+                              <div class="widget">
+                                <div
+                                  class="feature-box not-dark fbox-center mb-0"
+                                >
+                                  <div class="fbox-icon mb-4">
+                                    <img
+                                      src="demos/hosting/images/svg/dedicated.svg"
+                                      class="rounded-0 bg-transparent text-left"
+                                      alt="Image"
+                                      style="width: 52px"
+                                    />
+                                  </div>
+                                  <div class="fbox-content">
+                                    <h3 class="font-weight-medium">
+                                      <a href="#">Dedicated Hosting</a>
+                                    </h3>
+                                    <p
+                                      class="d-none d-lg-block mb-0 font-weight-light"
+                                    >
+                                      Dedicated server or managed hosting
+                                      service is a type of Internet hosting in
+                                      which the client leases an entire server
+                                      not shared with anyone.
+                                    </p>
+                                    <a
+                                      href="#"
+                                      class="btn btn-link mt-2 color p-0"
+                                      >Learn More &#8250;</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <ul
+                            class="sub-menu-container mega-menu-column col-lg-3"
+                          >
+                            <li class="menu-item">
+                              <div class="widget">
+                                <div
+                                  class="feature-box not-dark fbox-center mb-0"
+                                >
+                                  <div class="fbox-icon mb-4">
+                                    <img
+                                      src="demos/hosting/images/svg/shared.svg"
+                                      class="rounded-0 bg-transparent text-left"
+                                      alt="Image"
+                                      style="width: 52px"
+                                    />
+                                  </div>
+                                  <div class="fbox-content">
+                                    <h3 class="font-weight-medium">
+                                      <a href="#">Shared Hosting</a>
+                                    </h3>
+                                    <p
+                                      class="d-none d-lg-block mb-0 font-weight-light"
+                                    >
+                                      Shared Web Hosting service refers to a web
+                                      hosting service where many websites reside
+                                      on one web server connected to the
+                                      Internet.
+                                    </p>
+                                    <a
+                                      href="#"
+                                      class="btn btn-link mt-2 color p-0"
+                                      >Learn More &#8250;</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#"><div>Menu2</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#"><div>Menu3</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#"><div>Menu4</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#"><div>Contacto</div></a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
             </div>
-            <div id="primary-menu-trigger">
-              <svg class="svg-trigger" viewBox="0 0 100 100">
-                <path
-                  d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
-                </path>
-                <path d="m 30,50 h 40"></path>
-                <path
-                  d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
-                </path>
-              </svg>
-            </div>
-
-            <!-- Primary Navigation -->
-            <nav class="primary-menu not-dark with-arrows">
-              <ul class="menu-container not-dark">
-                <!-- Existing menu items -->
-                <li class="menu-item"><a class="menu-link" href="#" data-scrollto="#slider" data-easing="easeInOutExpo"
-                    data-speed="1250" data-offset="160">
-                    <div class="navItemseleccion" style="font-size: 12.5px; font-style: initial;"><b>INICIO</b></div>
-                  </a></li>
-                <li class="menu-item"><a class="menu-link" href="#" data-scrollto="#nosotrosID"
-                    data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-                    <div class="navItems" style="font-size: 12.5px;">Nosotros</div>
-                  </a></li>
-                <li class="menu-item"><a class="menu-link" href="#" data-scrollto="#clientesID"
-                    data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-                    <div class="navItems" style="font-size: 12.5px;">Clientes</div>
-                  </a></li>
-                <li class="menu-item"><a class="menu-link" href="#" data-scrollto="#section-map"
-                    data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-                    <div class="navItems" style="font-size: 12.5px;">Contacto</div>
-                  </a></li>
-                <!-- Language Selector -->
-                <li class="menu-item menu-item-language">
-                  <button style="
-    background-color: #28A745; 
-    color: white; 
-    border: none; 
-    border-radius: 25px; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease;
-">
-    Contáctanos
-</button>
-
-                </li>
-              </ul>
-            </nav>
-            <!-- #primary-menu end -->
           </div>
         </div>
-      </div>
-      <div class="header-wrap-clone"></div>
-    </header>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
 
-    <!-- #header end -->
+      <section
+        id="slider"
+        class="slider-element slider-parallax min-vh-60 min-vh-md-100 include-header"
+      >
+        <div
+          class="slider-inner"
+          style="
+            background: url('demos/app-landing/images/hero/hero.jpg') center
+              center no-repeat;
+            background-size: cover;
+          "
+        >
+          <div class="vertical-middle slider-element-fade">
+            <div class="container dark py-5 py-md-0">
+              <div class="row">
+                <div class="col-lg-6 col-md-8">
+                  <div class="emphasis-title">
+                    <h1 class="font-body">
+                      Internet en Tandil<br /> La mejor conectividad
+                    </h1>
+                  </div>
+                  <a
+                    href="#"
+                    data-scrollto="#section-pricing"
+                    data-easing="easeInOutExpo"
+                    data-speed="1250"
+                    data-offset="160"
+                    class="button button-large button-white button-light text-capitalize"
+                    style="border-radius: 23px"
+                    >Ver</a
+                  >
+                  <a
+                    href="https://www.youtube.com/watch?v=N_r349riLEE"
+                    class="hero-action-link"
+                    data-lightbox="iframe"
+                    ><i class="icon-play-sign"></i> Boton de Video</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <div class="padreSupremo">
-      <section id="slider" class="slider-element slider min-vh-md-120 videoPrincipal">
-        <div>
-          <!-- Video de fondo, cargado solo en pantallas grandes -->
-          <img src="img/imagenGPTpantalla.png" alt="">
-        </div>
-        <div class="video-wrap">
-          <div class="video-overlay" style="background: rgba(164, 12, 12, 0.949)"></div>
+          <div class="video-wrap">
+            <div
+              class="video-overlay"
+              style="background: rgba(0, 0, 0, 0.2)"
+            ></div>
+          </div>
         </div>
       </section>
 
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap">
+          <!-- Modal -->
+          <div class="modal1 mfp-hide" id="modal-login">
+            <div
+              class="block mx-auto"
+              style="background-color: #fff; max-width: 400px"
+            >
+              <div style="padding: 50px">
+                <h3 class="font-body">Login to your Account</h3>
+                <form action="#" method="post" class="row mb-0">
+                  <div class="col-12 form-group">
+                    <label
+                      class="font-body text-capitalize"
+                      for="login-form-modal-username"
+                      >Username:</label
+                    >
+                    <input
+                      type="text"
+                      id="login-form-modal-username"
+                      name="login-form-modal-username"
+                      value=""
+                      class="form-control"
+                    />
+                  </div>
 
+                  <div class="col-12 form-group">
+                    <label
+                      class="font-body text-capitalize"
+                      for="login-form-modal-password"
+                      >Password:</label
+                    >
+                    <input
+                      type="password"
+                      id="login-form-modal-password"
+                      name="login-form-modal-password"
+                      value=""
+                      class="form-control"
+                    />
+                  </div>
 
-      <!-- NOSOTROS
-============================================= -->
-      <div id="nosotrosID" class="nosotrosClass">
-        <div class="nosotrosClass2" style="text-align: justify;">
-          <h2 class="title-bottom-border" style="align-items: center; text-align: center;">NOSOTROS</h2>
-          <p class="parrafoNosotros">Somos una Empresa con vasta experiencia en el mercado de las
-            telecomunicaciones,
-            que reconoce el impacto y el Valor Agregado que la innovación tecnológica genera en las organizaciones y
-            comunidades.</p>
-        </div>
-      </div>
-
-      <div style="display: flex; justify-content: center; align-items: center;">
-        <div class="section m-0 border-0 containerMEV">
-          <div class="row col-mb-45 mb-0 containerMIO" style="text-align: initial;">
-            <div class="col-lg-4 containerMIO2">
-              <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-                <h4>Nuestra <span style="color: #227db3de">Misión</span>.</h4>
-              </div>
-              <p>Es la innovación constante implementando procesos de mejora continua, fidelizando y
-                progresando junto a nuestros Clientes y Partners.</p>
-            </div>
-            <div class="col-lg-4 containerMIO2">
-              <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-                <h4>Nuestra <span style="color: #227db3de">Estrategia</span>.</h4>
-              </div>
-              <p>Aplicando una filosofía de mejora continua en nuestros procesos e implementaciones, sustentamos nuestra
-                Estrategia de Mercado en la Diferenciación y el Valor Agregado.</p>
-            </div>
-            <div class="col-lg-4 containerMIO2">
-              <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-                <h4>Nuestra <span style="color: #227db3de">Visión</span>.</h4>
-              </div>
-              <p>Ser la más experimentada opción a la hora de innovar, integrando IT &
-                Telecomunicaciones.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div style="margin-top: -2%;">|
-        <!--
-        <div class="section dark m-0 border-0 seccionVid1" style="height: 40vh;">
-          <div class="container-fluid vertical-middle center clearfix">
-            <div class="emphasis-title m-0" data-animate="fadeInUp">
-              <h3 style="font-size: 56px; color: white;">INFORMATION TECHNOLOGY & TELECOMMUNICATIONS</h3>
-            </div>
-          </div>
-          <div class="video-wrap">
-            <video poster="img/videoSeparador.mp4" preload="" loop autoplay muted style="object-fit: cover;">
-              <source src='img/videoSeparador.mp4' type='video/webm' />
-              <source src='img/videoSeparador.mp4' type='video/mp4' />
-            </video>
-            <div class="video-overlay"></div>
-          </div>
-        </div>
-        -->
-        <br>
-
-        <div class="contenedorPadre1">
-          <div id="unidadIT" class="unidadIT">
-            <div class="imagenEdit">
-              <img src="img/1.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50px;" alt="">
-              <div class="shine-effect"></div>
-            </div>
-            <div class="informationClass">
-              <div class="informaationClass2" style="text-align: initial;">
-                <h2><span style="color: #227db3de;">IT</span> & <span style="color: #227db3de;">TEL</span> INFORMATION
-                  TECHNOLOGY & TELECOMMUNICATIONS</h2>
-                <p>Fuimos pioneros en implementar en el mercado Argentino lo que hoy se conoce en la industria de las
-                  telecomunicaciones como <b>“Redes Neutrales”</b> o <b>“Compartición de Infraestructura Telco“</b>.</p>
-                <p>Desarrollos que venimos implementando y perfeccionando hace más de 10 años en las más variadas
-                  jurisdicciones y topologías de red.</p>
-                <p>Operando sobre una misma infraestructura pasiva, la convivencia de redes MAN WAN Y LAN, con la
-                  transmisión de las TELCOs, fijas y móviles.</p>
+                  <div class="col-12 form-group">
+                    <button
+                      class="button button-rounded m-0"
+                      id="login-form-modal-submit"
+                      name="login-form-modal-submit"
+                      value="login"
+                    >
+                      Login
+                    </button>
+                    <a href="#" class="float-right">Forgot Password?</a>
+                  </div>
+                </form>
+                <div class="line line-sm"></div>
+                <a
+                  href="#"
+                  class="button button-rounded btn-block font-weight-normal center text-capitalize si-facebook si-colored mx-0"
+                  >Login with Facebook</a
+                >
+                <a
+                  href="#"
+                  class="button button-rounded btn-block font-weight-normal center text-capitalize si-gplus si-colored m-0"
+                  >Login with Google</a
+                >
               </div>
             </div>
           </div>
-          <br>
-          <div id="estrategiaIT" class="estrategiaIT">
-            <div class="divEstrategiaMayor">
-              <div class="divEstrategia" style="text-align: initial;">
-                <h2>ESTRATEGIA DE DIFERENCIACIÓN </h2>
-                <p style="margin-bottom: 5%;">Nos adaptamos con <b>Sinergia</b> a la operación de nuestros <b>Providers
-                    Locativos</b>: coordinamos y acompañamos todos los accesos a la red (de sitios y fibra óptica), de
-                  manera de asegurar la correcta operación del titular del espacio, como el acceso de los operadores de
-                  telecomunicaciones.
-                </p>
-                <p style="margin-bottom: 5%;">Esta estrategia se refleja en nuestros acuerdos y, sumado a la ingeniería
-                  de nuestras redes, nos permite brindar el <b>Service Level Agreement (SLA) mas alto del Mercado.</b>
-                </p>
-                <p style="margin-bottom: 5%;">Otras diferencias que nos caracterizan son los <b>cuidados visuales y
-                    ambientales de nuestras implementaciones</b>, certificando de manera sustentable cada proyecto.
-                </p>
-              </div>
-            </div>
-            <div class="imagenEdit">
-              <img src="img/vidImg2.png" style="width: auto; height: auto; object-fit: contain; border-radius: 60px;"
-                alt="">
-              <div class="shine-effect"></div>
-            </div>
-            <!--
-            <div class="videoEdit1">
-              <div class="video-wrap1">
-                <video poster="img/videoIttel2.mp4" preload="auto" loop autoplay muted>
-                  <source src="img/videoIttel2.webm" type="video/webm" />
-                  <source src="img/videoIttel2.mp4" type="video/mp4" />
-                </video>
-              </div>
-            </div>
-            -->
-          </div>
-        </div>
 
-
-        <div class="container"
-          style="max-width: 100%; background-color: rgba(39, 38, 38, 0.911); color: whitesmoke; font-weight: bold; display: flex; flex-direction: column; justify-content: center; text-align: center; align-items: center;">
-          <div class="row col-mb-30 mt-5" style="width: 70%; text-align: center;">
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="0" data-to="10" data-refresh-interval="2" data-speed="400"
-                    data-comma="true"></span>
-                </div>
-                <span>+ Años de <br>experiencia.</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="1" data-to="340" data-refresh-interval="50" data-speed="900"
-                    data-comma="true"></span>
-                </div>
-                <span>+ Proyectos <br>de éxito.</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="1" data-to="99.99" data-refresh-interval="30" data-speed="900"
-                    data-comma="true" data-decimals="2"></span>
-                </div>
-                <span>% de SLA<br>garantizado</span>
-              </div>
-            </div>
-          </div>
-          <div class="line line-sm mb-0"></div>
-        </div>
-
-
-        <!-- CASOS DE EXITO
-				============================================= -->
-        <!--
-
-        <div id="proyectosID" class="section bg-transparent clearfix proyectosClass">
           <div class="container clearfix">
-            <div class="heading-block bottommargin-lg center border-0" data-heading="W">
-              <h2 class="nott ls0">PROYECTOS DESTACADOS</h2>
-            </div>
-          </div>
-
-          -->
-
-        <!-- CASOS DE EXITO - Carousel
-					============================================= -->
-
-        <!--
-
-          <div id="oc-features"
-            class="owl-carousel owl-carousel-full image-carousel carousel-widget customjs ocCarrouselEditMio"
-            data-loop="true" data-nav="true" data-autoplay="1000" data-pagi="true">
-            <div class="oc-item">
-              <div class="row cleafix">
-                <div class="col-xl-8">
-                  <img src="img/AUSA4.jpg" alt="Image">
+            <div id="section-nextgen" class="page-section bottommargin-lg">
+              <div class="row clearfix">
+                <div class="col-lg-7 center">
+                  <img
+                    src="demos/app-landing/images/section/iphone-watch.png"
+                    alt="NextGen Framework"
+                    data-animate="fadeInLeft"
+                  />
                 </div>
-                <div class="col-xl-4"
-                  style="padding: 8px 0 0 12px; display: flex; flex-direction: column; justify-content: center; text-align: start;">
-                  <h3>Acuerdo ITTEL - AUSA</h3>
-                  <p>Integramos el despliegue de <b>infraestructura TELCO</b> más importante de la Ciudad de Buenos
-                    Aires:
+
+                <div class="col-lg-5">
+                  <div class="topmargin-lg d-none d-lg-block"></div>
+                  <img
+                    src="demos/app-landing/images/section/section-1-icon.png"
+                    alt="Image"
+                    style="display: block"
+                    class="bottommargin-sm"
+                  />
+                  <div class="emphasis-title bottommargin-sm">
+                    <span class="before-heading">Plug into the</span>
+                    <h2
+                      style="font-size: 42px"
+                      class="font-body ls1 font-weight-normal"
+                    >
+                      Titulo
+                    </h2>
+                  </div>
+                  <p style="color: #777" class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Praesentium, vel! Eius pariatur nemo expedita.
                   </p>
-                  <p>Sólo en este proyecto superamos los <b>1.000 kilómetros</b> de hilos arrendados.</p>
-                  <p>Gestionamos desde el diseño, pasando por la implementación y operación de más de 100 estructuras
-                    portantes de antenas, instaladas a lo largo de las Autopistas y Avenidas que delimitan <b>TODA la
-                      Ciudad
-                      de Buenos Aires.</b></p>
+                  <a href="#" class="section-more-link"
+                    >Learn More <i class="icon-angle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="oc-item">
-              <div class="row cleafix">
-                <div class="col-xl-8">
-                  <img src="img/AUBASA1.jpg" alt="Image">
-                </div>
-                <div class="col-xl-4"
-                  style="padding: 8px 0 0 12px; display: flex; flex-direction: column; justify-content: center; text-align: start;">
-                  <h3>Acuerdo ITTEL - AUBASA</h3>
-                  <p>Se ha implementado una red de <b>fibra óptica</b> con topología redundante para AUBASA, que integra
-                    servicios esenciales para la autopista y transmisiones para clientes TELCO.</p>
-                  <p>Esta red actúa como un <b>backbone</b> estratégico, <b>conectando Buenos Aires con La Plata</b> y
-                    enlazando con otras redes para ofrecer fibra óptica oscura y un camino redundante hacia la salida
-                    internacional de Internet en Las Toninas.</p>
-                  <p>El proyecto busca equilibrar la <b>operatividad, seguridad vial y compromiso ambiental.</b></p>
-                </div>
-              </div>
-            </div>
-            <div class="oc-item">
-              <div class="row cleafix">
-                <div class="col-xl-8">
-                  <img src="img/adif.jpg" alt="Image">
-                </div>
-                <div class="col-xl-4"
-                  style="padding: 8px 0 0 12px; display: flex; flex-direction: column; justify-content: center; text-align: start;">
-                  <h3>PROYECTO ADIFSE</h3>
-                  <p>En el Marco del Proyecto de desarrollo de las <b>redes de Telecomunicaciones</b> en los trazados
-                    ferroviarios que administra la ADIF S.E, trabajamos la primer Etapa, la cual constó del
-                    <b>relevamiento</b>
-                    de la infraestructura disponible, su estado, ocupación, y potencialidad.
+
+            <div class="line"></div>
+            <div class="clear"></div>
+
+            <div
+              id="section-stunning-graphics"
+              class="page-section topmargin bottommargin-lg"
+            >
+              <div class="row clearfix">
+                <div class="col-lg-5">
+                  <div class="topmargin-lg d-none d-lg-block"></div>
+                  <img
+                    src="demos/app-landing/images/section/section-2-icon.png"
+                    alt="Image"
+                    style="display: block"
+                    class="bottommargin-sm"
+                  />
+                  <div class="emphasis-title bottommargin-sm">
+                    <span class="before-heading"
+                      >Retina Ready &#x7E; 534 PPI</span
+                    >
+                    <h2
+                      style="font-size: 42px"
+                      class="font-body ls1 font-weight-normal"
+                    >
+                    Titulo
+                    </h2>
+                  </div>
+                  <p style="color: #777" class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Praesentium, vel! Eius pariatur nemo expedita.
                   </p>
-                  <p> El objetivo del proyecto fue informar la situación actual y las posibilidades de <b>desarrollo
-                      sustentable.</b></p>
-                  </p>
+                  <a href="#" class="section-more-link"
+                    >Learn More <i class="icon-angle-right"></i
+                  ></a>
+                </div>
+
+                <div class="col-lg-7 center">
+                  <img
+                    src="demos/app-landing/images/section/iphone-nexus.png"
+                    alt="Stunning Graphics"
+                    data-animate="fadeInRight"
+                  />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-      -->
-
-        <!--
-        <div class="divider divider-sm divider-center" style="margin-top: -5%;"><i class="icon-circle"></i></div>
-        -->
-
-        <br><br>
-
-        <!-- Trusted Client Section
-				============================================= -->
-        <div class="section mt-3 mb-4 pt-0 bg-transparent" id="clientesID">
-          <div class="container clearfix">
-            <div class="mx-auto containerClientes">
-              <div class="heading-block center mx-auto border-bottom-0 clearfix containerClientes2">
-                <div class="before-heading">Socios estrategicos</div>
-                <h2>NUESTROS CLIENTES</h2>
-                <br>
-                <p class="parrafoClienteSoporte">Consideramos que nuestra mejor carta de presentación son aquellas
-                  Empresas
-                  y
-                  Organizaciones que han confiado en nuestros servicios y pueden dar testimonio de la SINERGIA que
-                  alcanzamos
-                  para que cada implementación sea un éxito..
-                  <br>Bajo el concepto de Socios Estratégicos, nos enorgullece haber trabajado con ellos:
-                </p>
-              </div>
-
-
-              <!-- Clients Images -->
-
-              <div class="clientesMovil" style="margin-top: 20%;">
-                <div id="" class="owl-carousel image-carousel carousel-widget" data-margin="25" data-loop="true"
-                  data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3"
-                  data-items-md="4" data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="true">
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="clientesWeb">
-          <div id="" class="owl-carousel image-carousel carousel-widget" data-margin="80" data-loop="true"
-            data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3" data-items-md="4"
-            data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="false">
-            <div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- #content end -->
-
-
-        <!-- sECTION map
-============================================= -->
-
-        <div class="container clearfix">
-          <div class="divider divider-sm divider-center"><i class="icon-circle"></i></div>
-          <div class="heading-block bottommargin-lg center border-0 containerSoporte" data-heading="W">
-            <h2 class="nott ls0">SOPORTE | CONTACTO</h2>
-            <br>
-            <p class="parrafoClienteSoporte">
-              Nuestro equipo de profesionales brinda soporte y atención técnica las 24 horas de los 365 días del año
-              superando los requerimientos más altos en <b>SLA</b>.
-            </p>
-          </div>
-        </div>
-        <div id="section-map" class="page-section pt-0">
-          <div class="row mx-0 bottommargin-lg align-items-stretch" id="contactoID">
-            <div class="col-lg-8 col-md-6 d-none d-md-block px-0">
-              <div class="gmapClass">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.051944262572!2d-58.457091323605184!3d-34.552240172972716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb034747aa5d9%3A0xe0b59a8583c2ccc1!2sGrupo%20iTTel!5e0!3m2!1ses!2sar!4v1726797775897!5m2!1ses!2sar"
-                  width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6" style="background-color: #F5F5F5;">
-              <div class="col-padding">
-                <br>
-                <div style="font-size: 17px; line-height: 1.7;">
-                  <address style="line-height: 1.7;">
-                    <strong>Ciudad de Buenos Aires, Argentina</strong><br>
-                    <a style="color: #3b9bea;" target="_blank" href="https://maps.app.goo.gl/wUxh3sxNJKnENYWt7">Manuel
-                      Ugarte 1667, Belgrano</a><br>
-                  </address>
-                  <div class="clear topmargin-sm"></div>
-                  <strong>Telefono:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="tel:01152729000">
-                    011-5272-9000</a><br>
-                  <strong>Telefono:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="tel:54 11 1111-1111">
-                    0810-345-ITTEL (4883)</a><br>
-                  <br>
-                  <strong>Email:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="mailto:administracion@it-tel.com.ar">administracion@it-tel.com.ar</a><br>
-                  <strong>Email:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="mailto:soporte@it-tel.com.ar">soporte@it-tel.com.ar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Contacto
-		=============================================  -->
-        <section id="content">
-          <div class="content-wrap pb-0 contactoForm1" id="contacto">
-            <div class="container mb-3 center contactoForm2">
-              <h2 id="">Contactanos</h2>
-            </div>
+            <div class="line"></div>
             <div class="clear"></div>
           </div>
-        </section>
-        <section id="contact" class="section-bg wow fadeInUp">
-          <div class="container">
-            <div class="form" style="padding-inline: 8%;">
-              <div id="sendmessage">Su mensaje fue enviado, muchas gracias!</div>
-              <div id="errormessage"></div>
-              <form action="procesar_formulario.php" method="post" role="form" class="contactForm" name="send-contact"
-                id="contactform">
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre o Razón Social *"
-                      data-rule="minlen:4" data-msg="El nombre debe ser mayor a 4 digitos" />
-                    <div class="validation"></div>
+
+          <div
+            id="section-secured-solutions"
+            class="page-section section p-0 topmargin-sm"
+            style="
+              background: url('demos/app-landing/images/section/iphone-3d-bg.png')
+                no-repeat left bottom;
+              background-size: 100% auto;
+            "
+            data-height-xl="700"
+            data-height-lg="700"
+            data-height-md="450"
+            data-height-sm="450"
+            data-height-xs="450"
+          >
+            <div class="container clearfix">
+              <div class="row clearfix">
+                <div class="col-lg-5 offset-lg-6">
+                  <div class="topmargin-lg d-none d-lg-block"></div>
+                  <div class="topmargin-lg d-none d-lg-block"></div>
+                  <img
+                    src="demos/app-landing/images/section/section-3-icon.png"
+                    alt="Image"
+                    style="display: block"
+                    class="bottommargin-sm"
+                  />
+                  <div class="emphasis-title bottommargin-sm">
+                    <span class="before-heading">Privacy Protected</span>
+                    <h2
+                      style="font-size: 42px"
+                      class="font-body ls1 font-weight-normal"
+                    >
+                    Titulo
+                    </h2>
                   </div>
-                  <div class="form-group col-md-6 emailClass">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email *"
-                      data-rule="email" data-msg="Ingrese un mail valido" />
-                    <div class="validation"></div>
-                  </div>
+                  <p style="color: #777" class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Praesentium, vel! Eius pariatur nemo expedita.
+                  </p>
+                  <a href="#" class="section-more-link"
+                    >Learn More <i class="icon-angle-right"></i
+                  ></a>
                 </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto *"
-                    data-rule="minlen:4" data-msg="El asunto debe ser mayor a 4 digitos" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
-                    data-msg="Por favor, escriba su mensaje" placeholder="Ingrese su mensaje... *"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="g-recaptcha" data-sitekey="6Leu2k4qAAAAACu-yEaScprZs9xAk6hj3qIUs6FM"></div>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="sm-form-control colorButtonForm" id="template-contactform-botcheck"
-                    name="template-contactform-botcheck">Enviar mensaje</button>
-                </div>
-                <input type="hidden" name="prefix" value="template-contactform-">
-              </form>
+              </div>
+            </div>
+            <div
+              class="video-wrap"
+              style="position: absolute; height: 100%; z-index: 1"
+            >
+              <div
+                class="video-overlay d-none d-lg-block"
+                style="
+                  background: url('demos/app-landing/images/section/iphone-3d.png')
+                    no-repeat left top;
+                  background-size: auto 100%;
+                "
+                data-animate="fadeInLeft"
+              ></div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-    <!-- Footer
+
+          <div class="clear bottommargin"></div>
+
+          <div class="container clearfix">
+            <div id="section-pricing" class="page-section p-0 m-0">
+              <div
+                class="pricing-tenure-switcher row align-items-center justify-content-center mb-4"
+                data-container="#pricing-switch"
+              >
+                <span class="pts-left font-weight-bold text-muted"
+                  >Monthly</span
+                >
+                <div class="pts-switcher mx-3">
+                  <div class="switch">
+                    <input
+                      id="switch-toggle-pricing-tenure"
+                      class="switch-toggle switch-toggle-round"
+                      type="checkbox"
+                    />
+                    <label
+                      for="switch-toggle-pricing-tenure"
+                      class="mb-0"
+                    ></label>
+                  </div>
+                </div>
+                <span class="pts-right font-weight-bold text-muted"
+                  >Yearly</span
+                >
+              </div>
+
+              <div id="pricing-switch" class="pricing row col-mb-30 mb-5">
+                <div class="col-lg-4 col-md-6">
+                  <div class="pricing-box text-center">
+                    <div class="pricing-title text-uppercase">
+                      <h3>Starter</h3>
+                    </div>
+                    <div class="pricing-price">
+                      FREE<span class="price-tenure">Limited Access</span>
+                    </div>
+                    <div class="pricing-features border-0 bg-transparent">
+                      <ul>
+                        <li><strong>Full</strong> Access</li>
+                        <li><i class="icon-code"></i> Source Files</li>
+                        <li><strong>100</strong> User Accounts</li>
+                        <li><strong>1 Year</strong> License</li>
+                        <li>Phone &amp; Email Support</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-action">
+                      <a
+                        href="#modal-get-started"
+                        data-lightbox="inline"
+                        data-pricing-plan="Starter Plan"
+                        class="button button-large button-rounded text-capitalize ls0"
+                        style="border-radius: 23px"
+                        >Get Started</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="pricing-box text-center">
+                    <div class="pricing-title text-uppercase">
+                      <h3>Professional</h3>
+                    </div>
+                    <div class="pricing-price">
+                      <div class="pts-switch-content-left">
+                        <span class="price-unit">&dollar;</span>12<span
+                          class="price-tenure"
+                          >Monthly</span
+                        >
+                      </div>
+                      <div class="pts-switch-content-right">
+                        <span class="price-unit">&dollar;</span>99<span
+                          class="price-tenure"
+                          >Yearly</span
+                        >
+                      </div>
+                    </div>
+                    <div class="pricing-features border-0 bg-transparent">
+                      <ul>
+                        <li><strong>Full</strong> Access</li>
+                        <li><i class="icon-code"></i> Source Files</li>
+                        <li><strong>1000</strong> User Accounts</li>
+                        <li><strong>2 Years</strong> License</li>
+                        <li>
+                          <i class="icon-star3"></i>
+                          <i class="icon-star3"></i>
+                          <i class="icon-star3"></i>
+                          <i class="icon-star3"></i>
+                          <i class="icon-star3"></i>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pricing-action">
+                      <div class="pts-switch-content-left">
+                        <a
+                          href="#modal-get-started"
+                          data-lightbox="inline"
+                          data-pricing-plan="Professional Monthly Plan"
+                          class="button button-large button-rounded text-capitalize ls0"
+                          style="border-radius: 23px"
+                          >Start Free Trial</a
+                        >
+                      </div>
+                      <div class="pts-switch-content-right">
+                        <a
+                          href="#modal-get-started"
+                          data-lightbox="inline"
+                          data-pricing-plan="Professional Yearly Plan"
+                          class="button button-large button-rounded text-capitalize ls0"
+                          style="border-radius: 23px"
+                          >Start Free Trial</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3">
+                  <div class="pricing-box text-center">
+                    <div class="pricing-title text-uppercase">
+                      <h3>Business</h3>
+                    </div>
+                    <div class="pricing-price">
+                      <div class="pts-switch-content-left">
+                        <span class="price-unit">&dollar;</span>19<span
+                          class="price-tenure"
+                          >Monthly</span
+                        >
+                      </div>
+                      <div class="pts-switch-content-right">
+                        <span class="price-unit">&dollar;</span>149<span
+                          class="price-tenure"
+                          >Yearly</span
+                        >
+                      </div>
+                    </div>
+                    <div class="pricing-features border-0 bg-transparent">
+                      <ul>
+                        <li><strong>Full</strong> Access</li>
+                        <li><i class="icon-code"></i> Source Files</li>
+                        <li><strong>500</strong> User Accounts</li>
+                        <li><strong>3 Years</strong> License</li>
+                        <li>Phone &amp; Email Support</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-action">
+                      <div class="pts-switch-content-left">
+                        <a
+                          href="#modal-get-started"
+                          data-lightbox="inline"
+                          data-pricing-plan="Business Monthly Plan"
+                          class="button button-large button-rounded text-capitalize ls0"
+                          style="border-radius: 23px"
+                          >Start Free Trial</a
+                        >
+                      </div>
+                      <div class="pts-switch-content-right">
+                        <a
+                          href="#modal-get-started"
+                          data-lightbox="inline"
+                          data-pricing-plan="Business Yearly Plan"
+                          class="button button-large button-rounded text-capitalize ls0"
+                          style="border-radius: 23px"
+                          >Start Free Trial</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal1 mfp-hide" id="modal-get-started">
+                <div
+                  class="block mx-auto"
+                  style="background-color: #fff; max-width: 800px"
+                >
+                  <div class="form-widget p-5" data-loader="button">
+                    <div class="form-result"></div>
+                    <form
+                      action="#"
+                      id="get-started-form"
+                      method="post"
+                      class="mb-0"
+                    >
+                      <div class="row clearfix">
+                        <div class="col-md-8">
+                          <h3 class="font-body">Register for an Account</h3>
+                        </div>
+                        <div class="col-md-4">
+                          <div id="modal-get-started-package"></div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <label
+                            class="font-body text-capitalize"
+                            for="get-started-form-username"
+                            >Choose Username:</label
+                          >
+                          <input
+                            type="text"
+                            id="get-started-form-username"
+                            name="get-started-form-username"
+                            value=""
+                            class="form-control required no-error-msg"
+                          />
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                          <label
+                            class="font-body text-capitalize"
+                            for="get-started-form-email"
+                            >Your Email:</label
+                          >
+                          <input
+                            type="email"
+                            id="get-started-form-email"
+                            name="get-started-form-email"
+                            value=""
+                            class="form-control required email no-error-msg"
+                          />
+                        </div>
+
+                        <div class="w-100"></div>
+
+                        <div class="col-md-6 form-group">
+                          <label
+                            class="font-body text-capitalize"
+                            for="get-started-form-password"
+                            >Choose Password:</label
+                          >
+                          <input
+                            type="password"
+                            id="get-started-form-password"
+                            name="get-started-form-password"
+                            value=""
+                            class="form-control required no-error-msg"
+                          />
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                          <label
+                            class="font-body text-capitalize"
+                            for="get-started-form-password"
+                            >Retype Password:</label
+                          >
+                          <input
+                            type="password"
+                            id="get-started-form-repassword"
+                            name="get-started-form-repassword"
+                            value=""
+                            class="form-control required no-error-msg"
+                          />
+                        </div>
+
+                        <!-- Package Selector Hidden Input Value Setter -->
+                        <input
+                          type="hidden"
+                          id="get-started-form-package"
+                          name="get-started-form-package"
+                          value="Free"
+                        />
+
+                        <div class="col-12 form-group">
+                          <label>
+                            <input
+                              type="checkbox"
+                              id="get-started-form-agree"
+                              name="get-started-form-agree"
+                              value="1"
+                              style="
+                                position: relative;
+                                top: 2px;
+                                margin-right: 5px;
+                              "
+                            />
+                            I Agree to the Terms &amp; Conditions
+                          </label>
+                        </div>
+
+                        <div class="col-12 form-group">
+                          <button
+                            class="button button-rounded m-0"
+                            id="get-started-form-submit"
+                            name="get-started-form-submit"
+                            value="login"
+                          >
+                            Get Started
+                          </button>
+                          <a
+                            href="#"
+                            data-scrollto="#section-pricing"
+                            data-easing="easeInOutExpo"
+                            data-speed="1250"
+                            data-offset="160"
+                            class="float-right"
+                            onClick="$.magnificPopup.close();"
+                            >Change Plan?</a
+                          >
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="section-faqs" class="page-section p-0 m-0">
+              <h2 class="center font-body bottommargin-lg">
+                Frequently Asked Questions
+              </h2>
+
+              <div class="row topmargin-sm clearfix">
+                <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    How do I become an author?
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                    voluptate illum excepturi quam cum voluptates doloribus quae
+                    nisi.
+                  </p>
+                </div>
+                <div class="col-lg-5 col-md-6 bottommargin-sm">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    Helpful Resources for Authors
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Explicabo, placeat, architecto rem dolorem dignissimos
+                    repellat veritatis in et eos doloribus magnam aliquam ipsa
+                    alias assumenda officiis quasi sapiente suscipit.
+                  </p>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    How much money can I make?
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Possimus, fugiat iste nisi tempore nesciunt nemo fuga?
+                    Nesciunt, delectus laboriosam nisi repudiandae nam fuga
+                    saepe animi recusandae.
+                  </p>
+                </div>
+                <div class="col-lg-5 col-md-6 bottommargin-sm">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    Can I offer my items for free on a promotional basis?
+                  </h4>
+                  <p>
+                    Laboriosam iusto quia nulla ad voluptatibus iste beatae
+                    voluptas corrupti facilis accusamus recusandae sequi debitis
+                    reprehenderit quibusdam. Facilis eligendi a exercitationem
+                    nisi et placeat excepturi velit!
+                  </p>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    An Introduction to the Marketplaces for Authors
+                  </h4>
+                  <p>
+                    Quisquam atque vero delectus corrupti! Quo, maiores,
+                    dolorem, hic commodi nulla ratione accusamus doloribus fuga
+                    magnam id temporibus dignissimos deleniti quidem ipsam
+                    corporis sapiente nam expedita saepe quas ab? Vero,
+                    assumenda.
+                  </p>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                  <h4 class="font-body" style="margin-bottom: 15px">
+                    How does the Tuts+ Premium affiliate program work?
+                  </h4>
+                  <p class="mb-0">
+                    Reprehenderit similique nemo voluptate ullam natus illum
+                    magnam alias nobis doloremque delectus ipsa dicta repellat
+                    maxime dignissimos eveniet quae debitis ratione assumenda
+                    tempore officiis fugiat dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="section bottommargin-lg"
+            style="
+              background-color: #f8fafb;
+              border-top: 1px solid #e5e5e5;
+              border-bottom: 1px solid #e5e5e5;
+            "
+          >
+          <!--
+            <div
+              class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none"
+              data-animation="fade"
+              style="max-width: none"
+            >
+            </div>
+          </div>
+          -->
+
+          <div class="clear"></div>
+
+          <div id="section-gallery" class="page-section p-0 m-0">
+            <div class="container topmargin bottommargin-lg center clearfix">
+              <h3
+                class="ls1 font-weight-normal"
+                style="font-size: 32px; margin-bottom: 10px"
+              >
+                App Screenshots
+              </h3>
+              <p class="lead mx-auto" style="max-width: 600px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
+                repellendus quae fuga ad, beatae odit.
+              </p>
+              <a href="#" class="button button-circle text-capitalize"
+                >Check All</a
+              >
+            </div>
+
+            <div
+              class="owl-carousel owl-carousel-full image-carousel carousel-widget bottommargin"
+              data-margin="20"
+              data-center="true"
+              data-loop="true"
+              data-nav="false"
+              data-pagi="true"
+              data-items-xs="2"
+              data-items-sm="2"
+              data-items-md="4"
+              data-items-lg="4"
+              data-items-xl="6"
+              data-stage-padding="30"
+              data-lightbox="gallery"
+            >
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-1.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-1.jpg"
+                    alt="Image 1"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-2.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-2.jpg"
+                    alt="Image 2"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-3.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-3.jpg"
+                    alt="Image 3"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-4.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-4.jpg"
+                    alt="Image 4"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-5.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-5.jpg"
+                    alt="Image 5"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-6.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-6.jpg"
+                    alt="Image 5"
+                /></a>
+              </div>
+              <div class="oc-item">
+                <a
+                  data-lightbox="gallery-item"
+                  href="demos/app-landing/images/gallery/img-7.jpg"
+                  ><img
+                    src="demos/app-landing/images/gallery/img-7.jpg"
+                    alt="Image 5"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+
+          <!-- <div class="section m-0">
+					<div class="container clearfix">
+
+						<h2></h2>
+
+					</div>
+				</div> -->
+
+          <div
+            class="section"
+            style="
+              padding: 30px 0;
+              color: #999;
+              background-color: #f8fafb;
+              border-top: 1px solid #e5e5e5;
+              border-bottom: 1px solid #e5e5e5;
+            "
+          >
+            <div class="container clearfix">
+              <div class="row topmargin-lg clearfix">
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-browser inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Cross Browser</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Canvas 4 Loads Faster &amp; Smoother than the Previous
+                    Versions providing an Optimal Experience for your Users.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-adjustments inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Flexible Options</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Unleash the Power of Mega Menus by adding Widgets &amp;
+                    Mixed Columns powered by the Bootstrap Grid.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-calendar inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Scheduled Backups</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Amazing set of New Components giving you Opportunity to
+                    Create an Interactive Website for your Business.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-desktop inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Responsive Ready</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Convert any Grid to an Isotope Grid easily with Filterable
+                    Options making it extremely flexible and powerful.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-bargraph inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Increased Conversions</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Display an Alternate Lighter Menu on Responsive Devices with
+                    the same Markup Code as before. Awesomely Useful.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 bottommargin">
+                  <i
+                    class="i-plain i-large icon-et-cloud inline-block"
+                    style="margin-bottom: 30px; color: #999"
+                  ></i>
+                  <div
+                    class="heading-block border-bottom-0"
+                    style="margin-bottom: 15px"
+                  >
+                    <h4 style="font-size: 16px">Cloud Sharing</h4>
+                  </div>
+                  <p style="line-height: 26px">
+                    Added SPAM Protection for your Precious Forms so that you
+                    receive Emails only from Authentic Real Users.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section center mb-0 bg-transparent">
+            <div class="container clearfix">
+              <h3 class="ls1 font-weight-normal" style="font-size: 32px">
+                Experienced &amp; Trusted by <span>50,000+</span> People
+                worldwide
+              </h3>
+              <a
+                href="#modal-login"
+                data-lightbox="inline"
+                class="button button-large button-black text-capitalize"
+                style="border-radius: 23px"
+                >Login Now</a
+              >
+              <a
+                href="#"
+                data-scrollto="#section-pricing"
+                data-easing="easeInOutExpo"
+                data-speed="1250"
+                data-offset="160"
+                class="button button-large text-capitalize"
+                style="border-radius: 23px"
+                >Try it Free</a
+              >
+
+              <div class="clear bottommargin"></div>
+            </div>
+          </div>
+
+          <div
+            class="section mt-0 footer-stick"
+            style="
+              padding: 10px 0;
+              background-color: #f8fafb;
+              border-top: 1px solid #e5e5e5;
+            "
+          >
+            <div class="container clearfix">
+              <div class="row clearfix">
+                
+                <div class="col-lg-4">
+                  
+                </div>
+                <div class="col-lg-4">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+					<div id="section-contact" class="page-section">
+
+					<h2 class="bottommargin">Contacto</h2>
+
+						<div class="row clearfix">
+
+							<div class="col-lg-8">
+
+								<div class="form-widget">
+
+									<div class="form-result"></div>
+
+									<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+										<div class="form-process">
+											<div class="css3-spinner">
+												<div class="css3-spinner-scaler"></div>
+											</div>
+										</div>
+
+										<div class="col-md-6 form-group">
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Name" />
+										</div>
+
+										<div class="col-md-6 form-group">
+											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" />
+										</div>
+
+										<div class="clear"></div>
+
+										<div class="col-12 form-group">
+											<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" />
+										</div>
+
+										<div class="col-12 form-group">
+											<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+										</div>
+
+										<div class="col-12 form-group">
+											<button class="button button-black ml-0 topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+										</div>
+
+										<div class="col-12 form-group d-none">
+											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+										</div>
+
+										<input type="hidden" name="prefix" value="template-contactform-">
+
+									</form>
+
+								</div>
+
+							</div>
+
+							<div class="col-lg-4">
+								<h4>Titulo</h4>
+
+								<div style="font-size: 16px; line-height: 1.7;">
+									<address style="line-height: 1.7;">
+										Direccion<br>
+										Direccion<br>
+									</address>
+
+									<div class="clear topmargin"></div>
+
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> mail@
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+      </section>
+      <!-- #content end -->
+
+      
+      
+
+      <!-- Footer
 		============================================= -->
-    <footer id="footer" class="dark border-0">
+      <footer id="footer" style="background-color: #fff">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+          <div class="footer-widgets-wrap">
+            <div class="row clearfix">
+              <div class="col-lg-5">
+                <div class="widget clearfix">
+                  <div class="row clearfix">
+                    <div
+                      class="col-lg-8 bottommargin-sm clearfix"
+                      style="color: #888"
+                    >
+                      <b><a>USITEL</a></b>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Odio, consequatur facere molestiae iusto atque.
+                      </p>
 
-      <div class="container center">
-        <div class="footer-widgets-wrap">
+                      <a
+                        href="#"
+                        class="social-icon si-small si-borderless si-colored si-rounded si-facebook"
+                      >
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                      </a>
 
-          <div class="row mx-auto clearfix">
+                      <a
+                        href="#"
+                        class="social-icon si-small si-borderless si-colored si-rounded si-twitter"
+                      >
+                        <i class="icon-twitter"></i>
+                        <i class="icon-twitter"></i>
+                      </a>
 
-            <div class="col-lg-4">
+                      <a
+                        href="#"
+                        class="social-icon si-small si-borderless si-colored si-rounded si-gplus"
+                      >
+                        <i class="icon-gplus"></i>
+                        <i class="icon-gplus"></i>
+                      </a>
 
-              <div class="widget clearfix">
-                <h4 style="color: white;">Links</h4>
+                      <a
+                        href="#"
+                        class="social-icon si-small si-borderless si-colored si-rounded si-pinterest"
+                      >
+                        <i class="icon-pinterest"></i>
+                        <i class="icon-pinterest"></i>
+                      </a>
 
-                <ul class="list-unstyled footer-site-links mb-0">
-                  <li><a href="#" data-scrollto="#nosotrosID" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Quienes somos</a></li>
-                  <li><a href="#" data-scrollto="#unidadIT" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Servicios</a></li>
-                  <li><a href="#" data-scrollto="#clientesID" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Clientes</a></li>
-                  <!--<li><a href="#" data-scrollto="#proyectosID" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Proyectos</a></li>-->
-                  <li><a href="#" data-scrollto="#section-map" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Ubicación</a></li>
-                  <li><a href="#" data-scrollto="#contacto" data-easing="easeInOutExpo" data-speed="1250"
-                      data-offset="70">Formulario</a></li>
-                </ul>
+                      <a
+                        href="#"
+                        class="social-icon si-small si-borderless si-colored si-rounded si-vimeo"
+                      >
+                        <i class="icon-vimeo"></i>
+                        <i class="icon-vimeo"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-            </div>
+              <div class="col-lg-7">
+                <div class="row col-mb-30">
+                  <div class="col-lg-4">
+                    <div
+                      class="widget widget_links widget-li-noicon app_landing_widget_link clearfix"
+                    >
+                      <h4>In News</h4>
 
-            <div class="col-lg-4">
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/"
+                            >Documentation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >Feedback</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Plugins</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/support/"
+                            >Support Forums</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/themes/"
+                            >Themes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div
+                      class="widget widget_links widget-li-noicon app_landing_widget_link clearfix"
+                    >
+                      <h4>About Us</h4>
 
-              <div class="widget subscribe-widget clearfix" data-loader="button">
-                <h4 style="color: white;">GRUPO ITTEL S.R.L</h4>
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/"
+                            >Documentation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >Feedback</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Plugins</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/support/"
+                            >Support Forums</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/themes/"
+                            >Themes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div
+                      class="widget widget_links widget-li-noicon app_landing_widget_link clearfix"
+                    >
+                      <h4>Support</h4>
 
-                <div class="widget-subscribe-form-result"></div>
-                <!-- #suscribe 
-                <form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-                  <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email"
-                    class="form-control form-control-lg not-dark required email" placeholder="Tu dirección de email">
-                  <button class="button button-border button-circle button-light topmargin-sm" type="submit">Suscribite
-                  </button>
-                </form>
-                -->
-
-                <div class="center topmargin-sm">
-                  <!--
-                  <a target="_blank" href="https://web.facebook.com"
-                    class="social-icon inline-block border-0 si-small si-facebook" title="Facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                  </a>
-                  <a target="_blank" href="https://twitter.com"
-                    class="social-icon inline-block border-0 si-small si-twitter" title="Twitter">
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
-                  </a>
-                  <a target="_blank" href="https://www.instagram.com/"
-                    class="social-icon inline-block border-0 si-small si-instagram" title="instagram">
-                    <i class="icon-instagram"></i>
-                    <i class="icon-instagram"></i>
-                  </a>
-                  -->
-                  <a target="_blank" href="https://www.linkedin.com/company/grupoittel/?originalSubdomain=ar"
-                    class="social-icon inline-block border-0 si-large si-linkedin" title="linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/"
+                            >Documentation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >Feedback</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Plugins</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/support/"
+                            >Support Forums</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/themes/"
+                            >Themes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-4">
-
-              <div class="widget clearfix">
-                <h4 style="color: white;">Contacto</h4>
-
-                <p style="font-size: medium;" class="lead">Manuel Ugarte 1667 Ciudad de Buenos Aires</p>
-
-
-              </div>
-
-            </div>
-
           </div>
-
         </div>
-      </div>
 
-      <div id="copyrights">
-        <div class="container center clearfix">
-          GRUPO ITTEL SRL | INFORMATION TECHNOLOGY & TELECOMMUNICATIONS
+        <!-- Copyrights
+			============================================= -->
+        <div id="copyrights" class="bg-transparent pt-0">
+          <div class="container clearfix">
+            <div class="w-100 text-center text-md-left">
+              Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br />
+              <div class="copyright-links">
+                <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-    </footer><!-- #footer end -->
-    <!-- #footer end -->
-
-    <!-- Botón flotante con flecha personalizada -->
-    <div id="backToTopBtn">
-      <span class="flecha">^</span>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
     </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
 
     <!-- JavaScripts
 	============================================= -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="js/jquery.js"></script>
-    <script src="script.js"></script>
-    <!-- Deslizamiento
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Footer Scripts
 	============================================= -->
     <script src="js/functions.js"></script>
 
-
-
     <script>
-      jQuery(window).on('pluginCarouselReady', function () {
-        $('#oc-features').owlCarousel({
-          items: 1,
-          margin: 60,
-          nav: true,
-          navText: ['<i class="icon-line-arrow-left"></i>', '<i class="icon-line-arrow-right"></i>'],
-          dots: true,
-          stagePadding: 30,
-          responsive: {
-            768: { items: 2 },
-            1200: { stagePadding: 200 }
-          },
+      jQuery(document).ready(function ($) {
+        $("[data-pricing-plan]").click(function () {
+          $("#get-started-form")
+            .find("#get-started-form-package")
+            .val($(this).attr("data-pricing-plan"));
+          $("#get-started-form")
+            .find("#modal-get-started-package")
+            .html($(this).attr("data-pricing-plan"));
         });
       });
     </script>
-</body>
-
+  </body>
 </html>
