@@ -79,7 +79,7 @@
 
 /*VIDEO*/
 .videoPrincipal {
-	position: relative;
+	position: fixed;
 	height: 120vh;
 	width: 100%;
 	min-height: 120vh;
