@@ -1,3 +1,37 @@
+/*Contacto*/
+/* Estilo base para los inputs */
+.contactForm .form-control {
+    border: none; /* Quita el borde por defecto */
+    border-bottom: 1px solid #2e2d2d; /* Línea de color más oscuro al enfocar */
+    border-radius: 0; /* Quita el redondeo */
+    padding: 10px 5px; /* Ajusta el espacio interno */
+    outline: none; /* Elimina el borde azul al seleccionar */
+    font-size: 16px; /* Tamaño del texto */
+    transition: border-color 0.3s ease; /* Animación al enfocar */
+}
+
+/* Cambios al enfocar el input */
+.contactForm .form-control:focus {
+    border-bottom: 2px solid #2e2d2d; /* Línea de color más oscuro al enfocar */
+    box-shadow: none; /* Elimina cualquier sombra */
+}
+
+/* Placeholder estilizado */
+.contactForm .form-control::placeholder {
+    color: #666; /* Color del texto placeholder */
+    font-style: italic; /* Estilo del placeholder */
+}
+
+/* Validaciones */
+.contactForm .validation {
+    color: red; /* Mensajes de error en rojo */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+
 /*Lista ingles*/
 /* Estilo para el contenedor del menú de idiomas */
 .menu-item-language {
@@ -75,6 +109,32 @@
 	margin-left: 5px; /* Espaciado entre el texto y la flecha */
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 /**/
 
