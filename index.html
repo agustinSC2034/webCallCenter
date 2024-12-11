@@ -1,984 +1,1077 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="SemiColonWeb" />
-  <link rel="icon" href="img/logoG-png.png" type="image/x-icon" />
 
-  <!-- Stylesheets
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
 	============================================= -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Montserrat:400,700|Merriweather&display=swap"
-    rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 
-  <!-- Media Agency Demo Specific Stylesheet -->
-  <link rel="stylesheet" href="demos/app-landing/app-landing.css" type="text/css" />
-  <!-- / -->
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-  <link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="stylesheet" href="demos/app-landing/css/fonts.css" type="text/css" />
+	<!-- Workspace Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" /> <!-- Theme Color -->
+	<link rel="stylesheet" href="demos/coworking/css/fonts.css" type="text/css" /> <!-- Theme Font -->
+	<link rel="stylesheet" href="demos/coworking/coworking.css" type="text/css" /> <!-- Theme CSS -->
+	<!-- / -->
 
-  <!-- Bootstrap Switch CSS -->
-  <link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
-
-  <link rel="stylesheet" href="css/custom.css" type="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" />
-
-  <!-- Document Title
+	<!-- Document Title
 	============================================= -->
-  <title>Internet en Tandil | Usitel</title>
+	<title>Coworking | Canvas</title>
+
 </head>
 
 <body class="stretched">
-  <!-- Document Wrapper
+
+	<!-- Document Wrapper
 	============================================= -->
-  <div id="wrapper" class="clearfix">
-    <!-- Header
-		============================================= dark si quiero oscuro-->
-    <header id="header" class="full-header" data-sticky-class="not-dark" data-responsive-class="not-dark">
-      <div id="header-wrap">
-        <div class="container">
-          <div class="header-row">
-            <!-- Logo
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= false hace que no se achique el nav-->
+		<header id="header" class="border-bottom-0" data-sticky-shrink="true">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
 						============================================= -->
-            <!-- Logo -->
-            <div id="logo">
-              <a href="index.html" class="standard-logo" data-dark-logo=""><img src="img/logo.png" alt=""></a>
-              <a href="index.html" class="retina-logo" data-dark-logo=""><img src="img/logo.png" alt=""></a>
-            </div>
-            <!-- #logo end -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-sticky-logo="img/logoG-png.png"><img src="img/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-sticky-logo="img/logoG-png.png"><img src="img/logo.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
 
-            <div id="primary-menu-trigger">
-              <svg class="svg-trigger" viewBox="0 0 100 100">
-                <path
-                  d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
-                </path>
-                <path d="m 30,50 h 40"></path>
-                <path
-                  d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
-                </path>
-              </svg>
-            </div>
+						<div class="header-misc">
+							<a class="top-phone" href="tel:+618-234-532-45"><i class="icon-call"></i> <span class="d-none d-md-inline-block">54-123456789</span></a>
+						</div>
 
-            <!-- Primary Navigation
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
 						============================================= -->
-            <nav class="primary-menu not-dark with-arrows">
-              <ul class="menu-container not-dark">
-                <li class="menu-item current">
-                  <a class="menu-link" href="#">
-                    <div>Home</div>
-                  </a>
-                </li>
+						<nav class="primary-menu">
 
-                <li class="menu-item">
-                  <a class="menu-link" href="#">
-                    <div>Menu2</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a class="menu-link" href="#">
-                    <div>Menu3</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a class="menu-link" href="#">
-                    <div>Menu4</div>
-                  </a>
-                </li>
-                <!-- Language Selector -->
-                <li class="menu-item menu-item-language">
-                  <button style="
-    background-color: #2FBF71; 
-    color: white; 
-    border: none; 
-    border-radius: 25px; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    font-weight: bold;
-    cursor: pointer; 
-    transition: background-color 0.3s ease;
-">
-                    Contáctanos
-                  </button>
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="demo-coworking.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-coworking-about.html"><div>About Us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-coworking-price.html"><div>Rates</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-coworking-single.html"><div>Single</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-coworking-contact.html"><div>Contact Us</div></a></li>
+							</ul>
 
-                </li>
-              </ul>
-            </nav>
-            <!-- #primary-menu end -->
-          </div>
-        </div>
-      </div>
-
-    </header>
-    <!-- #header end -->
-
-    <section id="slider" class="slider-element slider-parallax min-vh-60 min-vh-md-100 include-header">
-      <div class="slider-inner" style="
-            background: url('demos/app-landing/images/hero/hero.jpg') center
-              center no-repeat;
-            background-size: cover;
-          ">
-        <div class="vertical-middle slider-element-fade">
-          <div class="container dark py-5 py-md-0">
-            <div class="row">
-              <div class="col-lg-6 col-md-8">
-                <div class="emphasis-title">
-                  <h1 class="font-body">
-                    profesionales callcenters<br /> La ayuda que necesitas
-                  </h1>
-                </div>
-                <a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250"
-                  data-offset="160" class="button button-large button-white button-light text-capitalize"
-                  style="border-radius: 23px; background-color: #2FBF71; color: white">Contáctanos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-wrap">
-          <div class="video-overlay" style="background: rgba(0, 0, 0, 0.2)"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Content
-		============================================= -->
-    <section id="content">
-      <div class="content-wrap">
-        <div class="container clearfix">
-          <div id="section-nextgen" class="page-section bottommargin-lg">
-            <div class="row clearfix">
-              <div class="col-lg-7 center">
-                <img src="demos/app-landing/images/section/iphone-watch.png" alt="NextGen Framework"
-                  data-animate="fadeInLeft" />
-              </div>
-
-              <div class="col-lg-5">
-                <div class="topmargin-lg d-none d-lg-block"></div>
-                <img src="demos/app-landing/images/section/section-1-icon.png" alt="Image" style="display: block"
-                  class="bottommargin-sm" />
-                <div class="emphasis-title bottommargin-sm">
-                  <span class="before-heading">Plug into the</span>
-                  <h2 style="font-size: 42px" class="font-body ls1 font-weight-normal">
-                    Titulo
-                  </h2>
-                </div>
-                <p style="color: #777" class="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Praesentium, vel! Eius pariatur nemo expedita.
-                </p>
-                <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="line"></div>
-          <div class="clear"></div>
-
-          <div id="section-stunning-graphics" class="page-section topmargin bottommargin-lg">
-            <div class="row clearfix">
-              <div class="col-lg-5">
-                <div class="topmargin-lg d-none d-lg-block"></div>
-                <img src="demos/app-landing/images/section/section-2-icon.png" alt="Image" style="display: block"
-                  class="bottommargin-sm" />
-                <div class="emphasis-title bottommargin-sm">
-                  <span class="before-heading">Retina Ready &#x7E; 534 PPI</span>
-                  <h2 style="font-size: 42px" class="font-body ls1 font-weight-normal">
-                    Titulo
-                  </h2>
-                </div>
-                <p style="color: #777" class="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Praesentium, vel! Eius pariatur nemo expedita.
-                </p>
-                <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-              </div>
-
-              <div class="col-lg-7 center">
-                <img src="demos/app-landing/images/section/iphone-nexus.png" alt="Stunning Graphics"
-                  data-animate="fadeInRight" />
-              </div>
-            </div>
-          </div>
-
-          <div class="line"></div>
-          <div class="clear"></div>
-        </div>
-
-        <div id="section-secured-solutions" class="page-section section p-0 topmargin-sm" style="
-              background: url('demos/app-landing/images/section/iphone-3d-bg.png')
-                no-repeat left bottom;
-              background-size: 100% auto;
-            " data-height-xl="700" data-height-lg="700" data-height-md="450" data-height-sm="450" data-height-xs="450">
-          <div class="container clearfix">
-            <div class="row clearfix">
-              <div class="col-lg-5 offset-lg-6">
-                <div class="topmargin-lg d-none d-lg-block"></div>
-                <div class="topmargin-lg d-none d-lg-block"></div>
-                <img src="demos/app-landing/images/section/section-3-icon.png" alt="Image" style="display: block"
-                  class="bottommargin-sm" />
-                <div class="emphasis-title bottommargin-sm">
-                  <span class="before-heading">Privacy Protected</span>
-                  <h2 style="font-size: 42px" class="font-body ls1 font-weight-normal">
-                    Titulo
-                  </h2>
-                </div>
-                <p style="color: #777" class="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Praesentium, vel! Eius pariatur nemo expedita.
-                </p>
-                <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="video-wrap" style="position: absolute; height: 100%; z-index: 1">
-            <div class="video-overlay d-none d-lg-block" style="
-                  background: url('demos/app-landing/images/section/iphone-3d.png')
-                    no-repeat left top;
-                  background-size: auto 100%;
-                " data-animate="fadeInLeft"></div>
-          </div>
-        </div>
-
-       
-          <div class="clear"></div>
-
-          <div id="section-faqs" class="page-section p-0 m-0">
-            <h2 class="center font-body bottommargin-lg">
-              Frequently Asked Questions
-            </h2>
-
-            <div class="row topmargin-sm clearfix">
-              <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  How do I become an author?
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Assumenda, dolorum, vero ipsum molestiae minima odio quo
-                  voluptate illum excepturi quam cum voluptates doloribus quae
-                  nisi.
-                </p>
-              </div>
-              <div class="col-lg-5 col-md-6 bottommargin-sm">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  Helpful Resources for Authors
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Explicabo, placeat, architecto rem dolorem dignissimos
-                  repellat veritatis in et eos doloribus magnam aliquam ipsa
-                  alias assumenda officiis quasi sapiente suscipit.
-                </p>
-              </div>
-              <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  How much money can I make?
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Possimus, fugiat iste nisi tempore nesciunt nemo fuga?
-                  Nesciunt, delectus laboriosam nisi repudiandae nam fuga
-                  saepe animi recusandae.
-                </p>
-              </div>
-              <div class="col-lg-5 col-md-6 bottommargin-sm">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  Can I offer my items for free on a promotional basis?
-                </h4>
-                <p>
-                  Laboriosam iusto quia nulla ad voluptatibus iste beatae
-                  voluptas corrupti facilis accusamus recusandae sequi debitis
-                  reprehenderit quibusdam. Facilis eligendi a exercitationem
-                  nisi et placeat excepturi velit!
-                </p>
-              </div>
-              <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  An Introduction to the Marketplaces for Authors
-                </h4>
-                <p>
-                  Quisquam atque vero delectus corrupti! Quo, maiores,
-                  dolorem, hic commodi nulla ratione accusamus doloribus fuga
-                  magnam id temporibus dignissimos deleniti quidem ipsam
-                  corporis sapiente nam expedita saepe quas ab? Vero,
-                  assumenda.
-                </p>
-              </div>
-              <div class="col-lg-5 col-md-6">
-                <h4 class="font-body" style="margin-bottom: 15px">
-                  How does the Tuts+ Premium affiliate program work?
-                </h4>
-                <p class="mb-0">
-                  Reprehenderit similique nemo voluptate ullam natus illum
-                  magnam alias nobis doloremque delectus ipsa dicta repellat
-                  maxime dignissimos eveniet quae debitis ratione assumenda
-                  tempore officiis fugiat dolor.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section bottommargin-lg" style="
-              background-color: #f8fafb;
-              border-top: 1px solid #e5e5e5;
-              border-bottom: 1px solid #e5e5e5;
-            ">
-          <!--
-            <div
-              class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none"
-              data-animation="fade"
-              style="max-width: none"
-            >
-            </div>
-          </div>
-          -->
-
-          <div class="clear"></div>
-
-          <div id="section-gallery" class="page-section p-0 m-0">
-            <div class="container topmargin bottommargin-lg center clearfix">
-              <h3 class="ls1 font-weight-normal" style="font-size: 32px; margin-bottom: 10px">
-                App Screenshots
-              </h3>
-              <p class="lead mx-auto" style="max-width: 600px">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
-                repellendus quae fuga ad, beatae odit.
-              </p>
-              <a href="#" class="button button-circle text-capitalize">Check All</a>
-            </div>
-
-            <div class="owl-carousel owl-carousel-full image-carousel carousel-widget bottommargin" data-margin="20"
-              data-center="true" data-loop="true" data-nav="false" data-pagi="true" data-items-xs="2" data-items-sm="2"
-              data-items-md="4" data-items-lg="4" data-items-xl="6" data-stage-padding="30" data-lightbox="gallery">
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-1.jpg"><img
-                    src="demos/app-landing/images/gallery/img-1.jpg" alt="Image 1" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-2.jpg"><img
-                    src="demos/app-landing/images/gallery/img-2.jpg" alt="Image 2" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-3.jpg"><img
-                    src="demos/app-landing/images/gallery/img-3.jpg" alt="Image 3" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-4.jpg"><img
-                    src="demos/app-landing/images/gallery/img-4.jpg" alt="Image 4" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-5.jpg"><img
-                    src="demos/app-landing/images/gallery/img-5.jpg" alt="Image 5" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-6.jpg"><img
-                    src="demos/app-landing/images/gallery/img-6.jpg" alt="Image 5" /></a>
-              </div>
-              <div class="oc-item">
-                <a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-7.jpg"><img
-                    src="demos/app-landing/images/gallery/img-7.jpg" alt="Image 5" /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="clear"></div>
-
-          <!-- <div class="section m-0">
-					<div class="container clearfix">
-
-						<h2></h2>
+						</nav><!-- #primary-menu end -->
 
 					</div>
-				</div> -->
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
 
-          <div class="section" style="
-              padding: 30px 0;
-              color: #999;
-              background-color: #f8fafb;
-              border-top: 1px solid #e5e5e5;
-              border-bottom: 1px solid #e5e5e5;
-            ">
-            <div class="container clearfix">
-              <div class="row topmargin-lg clearfix">
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-browser inline-block" style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Cross Browser</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Canvas 4 Loads Faster &amp; Smoother than the Previous
-                    Versions providing an Optimal Experience for your Users.
-                  </p>
-                </div>
+		<!-- Content
+		============================================= -->
+		<section id="content">
 
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-adjustments inline-block"
-                    style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Flexible Options</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Unleash the Power of Mega Menus by adding Widgets &amp;
-                    Mixed Columns powered by the Bootstrap Grid.
-                  </p>
-                </div>
+			<div class="content-wrap pt-3 pb-0">
 
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-calendar inline-block" style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Scheduled Backups</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Amazing set of New Components giving you Opportunity to
-                    Create an Interactive Website for your Business.
-                  </p>
-                </div>
+				<div class="section bg-transparent py-2">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7">
+								<h2 class="display-4 font-weight-semibold ls--2">We are making better <span class="text-rotater" data-separator="|" data-rotate="fadeIn" data-speed="2000">
+									<span class="t-rotate">Environment|Workspace|CoWorking|Community</span>
+								</span> for you.</h2>
+							</div>
+							<div class="col-md-5">
+								<p class="lead text-muted">
+									Collaboratively coordinate adaptive synergy with compelling "outside the box" thinking. Continually recaptiualize user friendly sources whereas leveraged.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-desktop inline-block" style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Responsive Ready</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Convert any Grid to an Isotope Grid easily with Filterable
-                    Options making it extremely flexible and powerful.
-                  </p>
-                </div>
+				<div class="overflow-hidden parallax d-flex align-items-center" data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -400px;" style="background-image: url('demos/coworking/images/hero.jpg'); background-size: cover; height: 600px; width: 100%;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<h2 class="text-white">The Center is a network of 9 workspaces, from 200 to 3,700 sqft, Build and Designed to support Personal and Businesses in the Creative World.</h2>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-bargraph inline-block" style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Increased Conversions</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Display an Alternate Lighter Menu on Responsive Devices with
-                    the same Markup Code as before. Awesomely Useful.
-                  </p>
-                </div>
+				<div class="bg-theme-light">
+					<div class="shadow-sm hero-features bg-color dark shadow">
+						<div class="row">
+							<div class="col-md-4 mt-3 mt-md-0">
+								<div class="feature-box fbox-plain fbox-sm fbox-dark mb-0">
+									<div class="fbox-icon">
+										<i class="icon-line-circle-check"></i>
+									</div>
+									<div class="fbox-content">
+										<h3 class="text-white">Easily Manage Your Works</h3>
+										<p class="text-white mb-0">24x7 available, Anytime & anywhere, we're always available for You.</p>
+									</div>
+								</div>
+							</div>
 
-                <div class="col-lg-4 bottommargin">
-                  <i class="i-plain i-large icon-et-cloud inline-block" style="margin-bottom: 30px; color: #999"></i>
-                  <div class="heading-block border-bottom-0" style="margin-bottom: 15px">
-                    <h4 style="font-size: 16px">Cloud Sharing</h4>
-                  </div>
-                  <p style="line-height: 26px">
-                    Added SPAM Protection for your Precious Forms so that you
-                    receive Emails only from Authentic Real Users.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+							<div class="col-md-4 mt-3 mt-md-0">
+								<div class="feature-box fbox-plain fbox-sm fbox-dark mb-0">
+									<div class="fbox-icon">
+										<i class="icon-line-circle-check"></i>
+									</div>
+									<div class="fbox-content">
+										<h3 class="text-white">24x7 Access.</h3>
+										<p class="text-white mb-0">Get Started with our Regular, Weekly, Monthly Plan.</p>
+									</div>
+								</div>
+							</div>
 
-          <div class="section center mb-0 bg-transparent">
-            <div class="container clearfix">
-              <h3 class="ls1 font-weight-normal" style="font-size: 32px">
-                Experienced &amp; Trusted by <span>50,000+</span> People
-                worldwide
-              </h3>
-              <a href="#modal-login" data-lightbox="inline" class="button button-large button-black text-capitalize"
-                style="border-radius: 23px">Login Now</a>
-              <a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250"
-                data-offset="160" class="button button-large text-capitalize" style="border-radius: 23px">Try it
-                Free</a>
+							<div class="col-md-4 mt-3 mt-md-0">
+								<div class="feature-box fbox-plain fbox-sm fbox-dark mb-0">
+									<div class="fbox-icon">
+										<i class="icon-line-circle-check"></i>
+									</div>
+									<div class="fbox-content">
+										<h3 class="text-white">Secured &amp; Friendly.</h3>
+										<p class="text-white mb-0">Intrinsicly evisculate quality vectors befor high-impact schemas.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-              <div class="clear bottommargin"></div>
-            </div>
-          </div>
-        </div>
+				<div class="section mt-0 pt-md-5 pt-0">
+					<div class="container clearfix">
+						<div class="row align-items-md-center mb-5">
+							<div class="col-md-6 pr-5">
+								<div class="heading-block mb-4 border-bottom-0">
+									<div class="before-heading">Know More</div>
+									<h2 class="nott font-weight-semibold">Work Together, Build Together.</h2>
+								</div>
+								<div class="row">
+									<div class="col-6 col-sm-6 mb-4">
+										<div class="counter color font-weight-semibold"><span data-from="1" data-to="3" data-refresh-interval="2" data-speed="600"></span>+</div>
+										<h5 class="mt-0 font-weight-medium">Branches</h5>
+									</div>
+
+									<div class="col-6 col-sm-6 mb-4">
+										<div class="counter color font-weight-semibold"><span data-from="1" data-to="37" data-refresh-interval="11" data-speed="900"></span>+</div>
+										<h5 class="mt-0 font-weight-medium">Single Studios</h5>
+									</div>
+
+									<div class="col-6 col-sm-6 mb-4">
+										<div class="counter color font-weight-semibold"><span data-from="1" data-to="21" data-refresh-interval="3" data-speed="1000"></span>+</div>
+										<h5 class="mt-0 font-weight-medium">Events per Month</h5>
+									</div>
+
+									<div class="col-6 col-sm-6 mb-4">
+										<div class="counter color font-weight-semibold"><span data-from="100" data-to="4500" data-refresh-interval="100" data-speed="1500"></span>+</div>
+										<h5 class="mt-0 font-weight-medium">Active Members</h5>
+									</div>
+								</div>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda praesentium eius, similique reprehenderit ab voluptatibus eaque.</p>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="card shadow-sm border-light">
+									<img src="demos/coworking/images/features/3.jpg" alt="Featured image 1" class="card-img-top">
+									<div class="card-body">
+										<h5 class="card-title font-weight-semibold color">Meeting Rooms</h5>
+										<p class="card-text">Some quick example text to build on the card title.</p>
+									</div>
+								</div>
+								<div class="card shadow-sm border-light mt-4">
+									<img src="demos/coworking/images/features/2.jpg" alt="Featured image 2" class="card-img-top">
+									<div class="card-body">
+										<h5 class="card-title font-weight-semibold color">Private Rooms</h5>
+										<p class="card-text">Some quick example text. similique reprehenderit ab voluptatibus eaque.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 pl-sm-3 mt-3 mt-sm-0">
+								<div class="card shadow-sm border-light">
+									<img src="demos/coworking/images/features/1.jpg" alt="Featured image 3" class="card-img-top">
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+
+					<div class="row justify-content-between">
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-wifi-full color ml-0 mb-4 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Fiber Optic WiFi</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-line2-cup color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Cafeteria</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-line2-screen-desktop color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Flexible Desks</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-line2-lock color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Lockers</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-fingerprint color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">100% Secure</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-line2-printer color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Printers &amp; Fax</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-couch color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Common Area</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-line-clock color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">24x7 Access</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+						<div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-playstation color ml-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Other Activities</h4>
+							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="section p-0 testimonials clearfix">
+					<div class="container" style="padding: 50px 0">
+						<div class="heading-block border-bottom-0 center">
+							<div class="before-heading">Nuestros servicios</div>
+						</div>
+
+						<div id="testimonials-carousel" class="owl-carousel carousel-widget testimonial testimonial-full bg-transparent border-0 shadow-none p-0 mx-auto text-left clearfix" data-animate-in="fadeIn" data-animate-out="fadeOut" data-margin="24" data-nav="false" data-pagi="true" data-items="1" style="max-width: 740px">
+							<div class="slide">
+								<div class="testi"> 
+									<div class="heading-block border-bottom-0 center">
+										<h2 class="nott font-weight-semibold">Telemarketing</h2>
+										<p class="mb-0 mt-1"><span class="font-weight-semibold"></span>Potencia tu empresa con todo el poder del<span class="font-weight-semibold"> marketing</span></p>
+									</div>
+									<div style= "background-color: transparent; display: flex; justify-content: center; align-self: center; height: 500px;">
+										<img  style="border-radius: 70px; padding: 2%; width: 80%; height: 100%;" src="img/mujertelemarketing.png" alt="">
+									</div>
+									<br>
+									<p style=>Collaboratively enhance intermandated innovation via cutting-edge core competencies. Professionally extend covalent e-markets and mission-critical communities. Dramatically communicate revolutionary web services for interactive synergy. Synergistically.</p>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="testi"> 
+									<div class="heading-block border-bottom-0 center">
+										<h2 class="nott font-weight-semibold">Telemarketing</h2>
+										<p class="mb-0 mt-1"><span class="font-weight-semibold"></span>Potencia tu empresa con todo el poder del<span class="font-weight-semibold"> marketing</span></p>
+									</div>
+									<div style= "background-color: transparent; display: flex; justify-content: center; align-self: center; height: 500px;">
+										<img  style="border-radius: 70px; padding: 2%; width: 80%; height: 100%;" src="img/mujertelemarketing.png" alt="">
+									</div>
+									<br>
+									<p style=>Collaboratively enhance intermandated innovation via cutting-edge core competencies. Professionally extend covalent e-markets and mission-critical communities. Dramatically communicate revolutionary web services for interactive synergy. Synergistically.</p>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="testi"> 
+									<div class="heading-block border-bottom-0 center">
+										<h2 class="nott font-weight-semibold">Telemarketing</h2>
+										<p class="mb-0 mt-1"><span class="font-weight-semibold"></span>Potencia tu empresa con todo el poder del<span class="font-weight-semibold"> marketing</span></p>
+									</div>
+									<div style= "background-color: transparent; display: flex; justify-content: center; align-self: center; height: 500px;">
+										<img  style="border-radius: 70px; padding: 2%; width: 80%; height: 100%;" src="img/mujertelemarketing.png" alt="">
+									</div>
+									<br>
+									<p style=>Collaboratively enhance intermandated innovation via cutting-edge core competencies. Professionally extend covalent e-markets and mission-critical communities. Dramatically communicate revolutionary web services for interactive synergy. Synergistically.</p>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="testi">
+									<div class="heading-block border-bottom-0 center">
+										<h2 class="nott font-weight-semibold">Telemarketing</h2>
+										<p class="mb-0 mt-1"><span class="font-weight-semibold"></span>Potencia tu empresa con todo el poder del<span class="font-weight-semibold"> marketing</span></p>
+									</div>
+									<div style= "background-color: transparent; display: flex; justify-content: center; align-self: center; height: 500px;">
+										<img  style="border-radius: 70px; padding: 2%; width: 80%; height: 100%;" src="img/mujertelemarketing.png" alt="">
+									</div>
+									<br>
+									<p style=>Collaboratively enhance intermandated innovation via cutting-edge core competencies. Professionally extend covalent e-markets and mission-critical communities. Dramatically communicate revolutionary web services for interactive synergy. Synergistically.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!--
+
+				<div class="section" style="padding: 80px 0">
+					<div class="container">
+						<div class="heading-block border-bottom-0 mb-0">
+							<div class="before-heading">Select your Plan</div>
+							<h2 class="nott font-weight-semibold mb-0">Membership</h2>
+						</div>
+					</div>
+
+					<div class="container">
+						<div class="row">
+
+							<div class="col-12">
+								<div id="price-carousel" class="owl-carousel carousel-widget" data-margin="30" data-nav="false" data-pagi="true" data-items-xs="1" data-items-sm="1" data-items-md="2" data-items-lg="3" data-items-xl="3">
+
+									<div class="price-list shadow-sm card border-0 rounded">
+										<div class="position-relative">
+											<img src="demos/coworking/images/membership/1-day.jpg" alt="Featured image 1" class="card-img-top rounded-top">
+											<div class="card-img-overlay dark d-flex justify-content-center flex-column p-0 center">
+												<h3 class="card-title mb-0 text-white">Day Pass</h3>
+												<p class="card-text mb-0">Give it a Try</p>
+											</div>
+										</div>
+										<div class="card-body">
+
+											<div class="price-title pb-3">$19<small>Per Day</small></div>
+
+											<ul class="list-group list-group-flush mb-4">
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Day Access Only</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Unlimited Superfast Wi-Fi</li>
+											  <li class="list-group-item pl-0 text-black-50"><i class="icon-line-check pr-3 color"></i> <del>No lockers</del></li>
+											</ul>
+
+											<a href="demo-coworking-single.html" class="button button-rounded button-large btn-block m-0 center font-weight-medium">Book Now</a>
+
+										</div>
+									</div>
+
+									<div class="price-list shadow-sm card border-0 rounded">
+										<div class="position-relative">
+											<img src="demos/coworking/images/membership/share.jpg" alt="Featured image 1" class="card-img-top rounded-top">
+											<div class="card-img-overlay dark d-flex justify-content-center flex-column p-0 center">
+												<h3 class="card-title mb-0 text-white">Shared Desk</h3>
+												<p class="card-text mb-0">Economical but Flexible</p>
+											</div>
+										</div>
+										<div class="card-body">
+
+											<div class="price-title pb-3">$99<small>Monthly</small></div>
+
+											<ul class="list-group list-group-flush mb-4">
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 8am to 8pm Access</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 100 hours of Superfast Wi-Fi</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Lockers Access</li>
+											  <li class="list-group-item pl-0 text-black-50"><i class="icon-line-check pr-3 color"></i> <del>No Printers</del></li>
+											</ul>
+
+											<a href="demo-coworking-single.html" class="button button-rounded button-large btn-block m-0 center font-weight-medium">Book Now</a>
+
+										</div>
+									</div>
+
+									<div class="price-list shadow-sm card border-0 rounded">
+										<div class="position-relative">
+											<img src="demos/coworking/images/membership/flexible.jpg" alt="Featured image 1" class="card-img-top rounded-top">
+											<div class="card-img-overlay dark d-flex justify-content-center flex-column p-0 center">
+												<h3 class="card-title mb-0 text-white">Flexible Desk</h3>
+											<p class="card-text mb-0">Any Desk, Any Chair</p>
+											</div>
+										</div>
+										<div class="card-body">
+
+											<div class="price-title pb-3">$149<small>Monthly</small></div>
+
+											<ul class="list-group list-group-flush mb-4">
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 200 hours of WIFI per Month</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Lockers Access</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 50 pages Printers</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 5hrs Skype Booth</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Mailing Address</li>
+											</ul>
+
+											<a href="demo-coworking-single.html" class="button button-rounded button-large btn-block m-0 center font-weight-medium">Book Now</a>
+
+										</div>
+									</div>
+
+									<div class="price-list shadow-sm card border-0 rounded">
+										<div class="position-relative">
+											<img src="demos/coworking/images/membership/private.jpg" alt="Featured image 1" class="card-img-top rounded-top">
+											<div class="card-img-overlay dark d-flex justify-content-center flex-column p-0 center">
+												<h3 class="card-title mb-0 text-white">Private Desk</h3>
+											<p class="card-text mb-0">Its all Yours!</p>
+											</div>
+										</div>
+										<div class="card-body">
+
+											<div class="price-title pb-3">$249<small>Monthly</small></div>
+
+											<ul class="list-group list-group-flush mb-4">
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Private Desk + Locker</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> 500 hours of WIFI per Month</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Meeting Room Access</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Unlimited Printers</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Unlimited Skype Booth</li>
+											  <li class="list-group-item pl-0"><i class="icon-line-check pr-3 color"></i> Mailing Address</li>
+											</ul>
+
+											<a href="demo-coworking-single.html" class="button button-rounded button-large btn-block m-0 center font-weight-medium">Book Now</a>
+
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				-->
+
+				<div class="section clearfix bg-transparent">
+					<div class="container">
+						<div class="heading-block border-bottom-0 center">
+							<div class="before-heading">Some Of Gallery Pictures</div>
+							<h2 class="nott font-weight-semibold mb-0">Gallery</h2>
+						</div>
+					</div>
+					<div id="image-carousel" class="owl-carousel carousel-widget" data-margin="24" data-nav="true" data-pagi="true" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="2" style="padding: 0 20px" data-lightbox="gallery">
+						<div class="slide slide--1">
+							<div class="carousel-column-container">
+								<ul class="carousel-column column-1">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/1.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/1.jpg');"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/2.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/2.jpg');"></a>
+									</li>
+								</ul>
+								<ul class="carousel-column column-2">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/3.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/3.jpg'); min-height: 300px"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/4.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/4.jpg'); min-height: 280px"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/5.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/5.jpg'); min-height: 200px"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="slide slide--2">
+							<div class="carousel-column-container">
+								<ul class="carousel-column column-1">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/6.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/6.jpg'); min-height: 324px"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<div class="item bg-color d-flex align-items-center px-4" style="min-height: 480px">
+											<blockquote class="blockquote border-0 mb-0">
+												<p class="mb-3 text-white">"The Spirit of CoWorking Allows You to Find CoWorkers Who're Worth Working with."</p>
+												<footer class="blockquote-footer text-white-50 font-italic">Cynthia Chiam</footer>
+											</blockquote>
+										</div>
+									</li>
+								</ul>
+								<ul class="carousel-column column-2">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/8.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/8.jpg');"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/9.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/9.jpg');"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/10.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/10.jpg');"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="slide slide--3">
+							<div class="carousel-column-container">
+								<ul class="carousel-column column-1">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/11.jpg" data-lightbox="gallery-item" class="item bg-color d-flex align-items-center px-4 img-overlay" style="background-image: url('demos/coworking/images/gallery/11.jpg'); min-height: 350px">
+											<blockquote class="blockquote border-0 mb-0">
+												<p class="mb-3 text-white">"I Belive in Collaboration Rather Than Competition"</p>
+												<footer class="blockquote-footer text-white-50 font-italic">Cynthia Chiam</footer>
+											</blockquote>
+										</a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/12.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/12.jpg'); min-height: 453px"></a>
+									</li>
+								</ul>
+								<ul class="carousel-column column-2">
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/13.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/13.jpg');"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/14.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/14.jpg');"></a>
+									</li>
+									<li class="carousel-grid-item">
+										<a href="demos/coworking/images/gallery/15.jpg" data-lightbox="gallery-item" class="item" style="background-image: url('demos/coworking/images/gallery/15.jpg');"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+		
+
+				<div class="section bg-transparent clearfix" style="padding: 80px 0">
+					<div class="container">
+						<div class="row justify-content-between align-items-center">
+							<div class="col-lg-5 col-md-6 mt-0 mt-md-4">
+								<div class="feature-box fbox-plain fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-line2-magic-wand"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>Easily Manage Your Works</h3>
+										<p>Quickly impact virtual testing procedures vis-a-vis viral e-commerce. Completely myocardinate seamless.</p>
+									</div>
+								</div>
+
+								<div class="feature-box fbox-plain fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-line2-clock"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>24x7 Access</h3>
+										<p>Authoritatively create one-to-one relationships for B2B "outside the box" thinking. Dramatically seize.</p>
+									</div>
+								</div>
+
+								<div class="feature-box fbox-plain fbox-sm mb-0">
+									<div class="fbox-icon">
+										<i class="icon-line2-speech"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>Great Community</h3>
+										<p>Proactively evolve user-centric paradigms rather than exceptional core. Authoritatively brand unique.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-5 col-md-6 mt-5 mt-md-0">
+								<h2 class="ls0">Get One Day Free Trial.</h2>
+								<p class="text-muted mb-5" style="font-size: 18px;">Enthusiastically embrace diverse e-markets after sustainable applications. Collaboratively impact intermandated systems vis-a-vis progressive information.</p>
+								<div class="d-flex">
+									<a href="demo-coworking-single.html" class="button button-rounded button-xlarge d-block flex-fill m-0 center nott font-weight-semibold ls0">Sign Up</a>
+									<a href="demo-coworking-contact.html" class="button button-rounded button-xlarge d-block flex-fill button-border m-0 ml-3 center nott font-weight-semibold ls0">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="line"></div>
+
+
+				
+
+
+				
 
 
 
 
+				<div class="section mb-0 pb-0 bg-theme-light clearfix" style="padding-top: 120px;">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 offset-1">
+								<div class="before-heading">Don't Hesitate to Reach out to Us</div>
+									<h2 class="nott font-weight-semibold display-4">Want to Talk?</h2>
+								<h4 class="font-weight-light mb-4">Call us at <a href="tel:+(61)8-234-532-45">+(61)8-234-532-45</a></h4>
+								<a href="mailto:noreply@canvas.com" class="button button-rounded button-xlarge m-0 nott font-weight-semibold ls0 px-5">Email Us</a>
+							</div>
+						</div>
+					</div>
+					<img src="demos/coworking/images/footer-bg.jpg" alt="Footer Image" class="footer-img">
+				</div>
 
 
-
-        <div class="container"
-          style="max-width: 100%; background-color: rgba(39, 38, 38, 0.911); color: whitesmoke; font-weight: bold; display: flex; flex-direction: column; justify-content: center; text-align: center; align-items: center;">
-          <div class="row col-mb-30 mt-5" style="width: 70%; text-align: center;">
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="0" data-to="10" data-refresh-interval="2" data-speed="400"
-                    data-comma="true"></span>
-                </div>
-                <span>+ Años de <br>experiencia.</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="1" data-to="340" data-refresh-interval="50" data-speed="900"
-                    data-comma="true"></span>
-                </div>
-                <span>+ Proyectos <br>de éxito.</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="counter counter-xlarge text-dark font-weight-bolder">
-                  <span style="color: white;" data-from="1" data-to="99.99" data-refresh-interval="30" data-speed="900"
-                    data-comma="true" data-decimals="2"></span>
-                </div>
-                <span>% de SLA<br>garantizado</span>
-              </div>
-            </div>
-          </div>
-          <div class="line line-sm mb-0"></div>
-        </div>
-
-
-
+			</BR></BR></BR></BR>
+				
         <!-- Trusted Client Section
 				============================================= -->
-        <div class="section mt-3 mb-4 pt-0 bg-transparent" id="clientesID">
-          <div class="container clearfix">
-            <div class="mx-auto containerClientes">
-              <div class="heading-block center mx-auto border-bottom-0 clearfix containerClientes2">
-                <div class="before-heading">Socios estrategicos</div>
-                <h2>NUESTROS CLIENTES</h2>
-                <br>
-                <p class="parrafoClienteSoporte">Consideramos que nuestra mejor carta de presentación son aquellas
-                  Empresas
-                  y
-                  Organizaciones que han confiado en nuestros servicios y pueden dar testimonio de la SINERGIA que
-                  alcanzamos
-                  para que cada implementación sea un éxito..
-                  <br>Bajo el concepto de Socios Estratégicos, nos enorgullece haber trabajado con ellos:
-                </p>
-              </div>
+				<div class="section mt-3 mb-4 pt-0 bg-transparent" id="clientesID">
+					<div class="container clearfix">
+					  <div class="mx-auto containerClientes">
+						<div class="heading-block center mx-auto border-bottom-0 clearfix containerClientes2">
+						  <h2>NUESTROS CLIENTES</h2>
+						  <br>
+						  <p class="parrafoClienteSoporte">
+							para que cada implementación sea un éxito..
+							<br>Bajo el concepto de Socios Estratégicos, nos enorgullece haber trabajado con ellos:
+						  </p>
+						</div>
+		  
+		  
+						<!-- Clients Images -->
+		  
+						<div class="clientesMovil" style="margin-top: 20%;">
+						  <div id="" class="owl-carousel image-carousel carousel-widget" data-margin="25" data-loop="true"
+							data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3"
+							data-items-md="4" data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="true">
+							<div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
+							</div>
+							<div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+		  
+		  
+				  <div class="clientesWeb">
+					<div id="" class="owl-carousel image-carousel carousel-widget" data-margin="80" data-loop="true"
+					  data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3" data-items-md="4"
+					  data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="false">
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
+					  </div>
+					  <div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
+					  </div>
+					</div>
+				  </div>
+
+				  <BR><BR><BR><BR>
 
 
-              <!-- Clients Images -->
+				  
+				<div class="section p-0 bg-transparent clearfix">
+					<div class="container">
+						<div class="row mb-2">
+							<div class="col-lg-6 col-md-4">
+								<div class="heading-block border-bottom-0 mb-4">
+									<div class="before-heading">How do you Contact Us</div>
+									<h2 class="nott font-weight-semibold">Locations</h2>
+								</div>
+							</div>
 
-              <div class="clientesMovil" style="margin-top: 20%;">
-                <div id="" class="owl-carousel image-carousel carousel-widget" data-margin="25" data-loop="true"
-                  data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3"
-                  data-items-md="4" data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="true">
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
-                  </div>
-                  <div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+							<div class="col-lg-6 col-md-8">
+								<div class="row">
+									<div class="col-sm-4 col-3">
+										<div class="counter color font-weight-semibold"><span data-from="1" data-to="3" data-refresh-interval="2" data-speed="600"></span>+</div>
+										<h5 class="mt-0 font-weight-medium">Branches</h5>
+									</div>
 
+									<div class="col-sm-4 col-6">
+										<div class="counter color font-weight-semibold"><span data-from="100" data-to="4500" data-refresh-interval="100" data-speed="1500"></span>+</div>
+											<h5 class="mt-0 font-weight-medium">Active Members</h5>
+									</div>
 
-        <div class="clientesWeb">
-          <div id="" class="owl-carousel image-carousel carousel-widget" data-margin="80" data-loop="true"
-            data-nav="true" data-autoplay="1200" data-pagi="true" data-items-xs="2" data-items-sm="3" data-items-md="4"
-            data-items-lg="5" data-items-xl="5" style="width: 95%;" data-dots="false">
-            <div class="itemCliente"><a><img src="img/logosClientes/client-1.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-2.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-3.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-4.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-5.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-6.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-7.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-8.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-9.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-10.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-11.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-12.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-13.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-14.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-15.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-16.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-17.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-18.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-19.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-20.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-21.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-22.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-23.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-24.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-25.png" alt="Clients"></a>
-            </div>
-            <div class="itemCliente"><a><img src="img/logosClientes/client-26.png" alt="Clients"></a>
-            </div>
-          </div>
-        </div>
+									<div class="col-sm-4 col-3">
+										<div class="counter color font-weight-semibold"><span data-from="2" data-to="100" data-refresh-interval="30" data-speed="1500"></span>%</div>
+											<h5 class="mt-0 font-weight-medium">Secured</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="locations-carousel" class="owl-carousel carousel-widget owl-carousel-full clearfix" data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="200" data-margin="0" data-nav="true" data-pagi="true" data-items="1">
+						<div>
+							<div class="masonry-thumbs grid-container grid-5" data-big="2" data-lightbox="gallery">
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/1.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/1.jpg" alt="Gallery Thumb 1"></a>
+								<div class="grid-item"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835253572242!2d144.95373531531297!3d-37.817327679751735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1554124945593!5m2!1sen!2sin" width="500" height="334" allowfullscreen  style="border:0;"></iframe></div>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/2.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/2.jpg" alt="Gallery Thumb 12"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/3.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/3.jpg" alt="Gallery Thumb 3"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/4.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/4.jpg" alt="Gallery Thumb 4"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/5.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/5.jpg" alt="Gallery Thumb 5"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/6.jpg" data-lightbox="gallery-item"><img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/6.jpg" alt="Gallery Thumb 6"></a>
+							</div>
+							<div class="container">
+								<div class="card shadow bg-white">
+									<div class="card-body">
+										<h3 class="mb-4">Melbourne</h3>
+										<div style="font-size: 16px;">
+											<address>
+												121 King St,<br>Melbourne VIC 3000,<br>Australia
+											</address>
+											<div class="mb-4" style="font-size: 15px;">
+												<small class="text-black-50 d-block mb-2">Phone Number:</small>
+												<a href="tel:+(61)3-222-333-44" class="text-dark d-block mb-1">+(61)3-222-333-44</a>
+												<a href="tel:+(61)3-234-532-45" class="text-dark">+(61)3-234-532-45</a>
+											</div>
+
+											<a href="mailto:noreply@canvas.com" class="button button-rounded m-0 nott font-weight-semibold ls0">Email Us</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+					
+
+			
+					</div>
+				</div>
+
+			
 
 
-        <!-- #content end -->
-
-
-        <!-- sECTION map
-============================================= -->
-
-        <div class="container clearfix">
-          <div class="divider divider-sm divider-center"><i class="icon-circle"></i></div>
-          <div class="heading-block bottommargin-lg center border-0 containerSoporte" data-heading="W">
-            <h2 class="nott ls0">Contactanos</h2>
-            <br>
-            <p class="parrafoClienteSoporte">
-              Nuestro equipo de profesionales brinda soporte y atención técnica las 24 horas de los 365 días del año
-              superando los requerimientos más altos en <b>SLA</b>.
-            </p>
-          </div>
-        </div>
-        <div id="section-map" class="page-section pt-0">
-          <div class="row mx-0 bottommargin-lg align-items-stretch" id="contactoID">
-            <div class="col-lg-8 col-md-6 d-none d-md-block px-0">
-              <div class="gmapClass">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.051944262572!2d-58.457091323605184!3d-34.552240172972716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb034747aa5d9%3A0xe0b59a8583c2ccc1!2sGrupo%20iTTel!5e0!3m2!1ses!2sar!4v1726797775897!5m2!1ses!2sar"
-                  width="650" height="320" style="border:0; border-radius: 80px;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6" style="background-color: #3bc197a3; border-radius: 80px;">
-              <div class="col-padding">
-                <br>
-                <div style="font-size: 17px; line-height: 1.7;">
-                  <address style="line-height: 1.7;">
-                    <strong>Ciudad de Buenos Aires, Argentina</strong><br>
-                    <a style="color: #3b9bea;" target="_blank" href="https://maps.app.goo.gl/wUxh3sxNJKnENYWt7">Manuel
-                      Ugarte 1667, Belgrano</a><br>
-                  </address>
-                  <div class="clear topmargin-sm"></div>
-                  <strong>Telefono:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="tel:01152729000">
-                    011-5272-9000</a><br>
-                  <strong>Telefono:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="tel:54 11 1111-1111">
-                    0810-345-ITTEL (4883)</a><br>
-                  <br>
-                  <strong>Email:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="mailto:administracion@it-tel.com.ar">administracion@it-tel.com.ar</a><br>
-                  <strong>Email:</strong></abbr> <a style="color: #3b9bea;" class="a_hoverUBI"
-                    href="mailto:soporte@it-tel.com.ar">soporte@it-tel.com.ar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Contacto
+				    <!-- Contacto
 		=============================================  -->
         <section id="content">
-          <div class="content-wrap pb-0 contactoForm1" id="contacto">
-            <div class="container mb-3 center contactoForm2">
-              <h2 id="">Contactanos</h2>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </section>
-        <section id="contact" class="section-bg wow fadeInUp">
-          <div class="container">
-            <div class="form" style="padding-inline: 8%;">
-              <div id="sendmessage">Su mensaje fue enviado, muchas gracias!</div>
-              <div id="errormessage"></div>
-              <form action="procesar_formulario.php" method="post" role="form" class="contactForm" name="send-contact"
-                id="contactform">
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre o Razón Social *"
-                      data-rule="minlen:4" data-msg="El nombre debe ser mayor a 4 digitos" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-md-6 emailClass">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email *"
-                      data-rule="email" data-msg="Ingrese un mail valido" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto *"
-                    data-rule="minlen:4" data-msg="El asunto debe ser mayor a 4 digitos" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
-                    data-msg="Por favor, escriba su mensaje" placeholder="Ingrese su mensaje... *"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="g-recaptcha" data-sitekey="6Leu2k4qAAAAACu-yEaScprZs9xAk6hj3qIUs6FM"></div>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="sm-form" id=""
-                    name="template-contactform-botcheck" style="border-radius: 80px; width: 100%;">Enviar mensaje</button>
-                </div>
-                <input type="hidden" name="prefix" value="template-contactform-">
-              </form>
-            </div>
-          </div>
-        </section>
-      </div>
-  </div>
+			<div class="content-wrap pb-0 contactoForm1" id="contacto">
+			  <div class="container mb-3 center contactoForm2">
+				<h2 id="">Contactanos</h2>
+			  </div>
+			  <div class="clear"></div>
+			</div>
+		  </section>
+		  <section id="contact" class="section-bg wow fadeInUp">
+			<div class="container">
+			  <div class="form" style="padding-inline: 8%;">
+				<div id="sendmessage">Su mensaje fue enviado, muchas gracias!</div>
+				<div id="errormessage"></div>
+				<form action="procesar_formulario.php" method="post" role="form" class="contactForm" name="send-contact"
+				  id="contactform">
+				  <div class="form-row">
+					<div class="form-group col-md-6">
+					  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre o Razón Social *"
+						data-rule="minlen:4" data-msg="El nombre debe ser mayor a 4 digitos" />
+					  <div class="validation"></div>
+					</div>
+					<div class="form-group col-md-6 emailClass">
+					  <input type="email" class="form-control" name="email" id="email" placeholder="Email *"
+						data-rule="email" data-msg="Ingrese un mail valido" />
+					  <div class="validation"></div>
+					</div>
+				  </div>
+				  <div class="form-group">
+					<input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto *"
+					  data-rule="minlen:4" data-msg="El asunto debe ser mayor a 4 digitos" />
+					<div class="validation"></div>
+				  </div>
+				  <div class="form-group">
+					<textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
+					  data-msg="Por favor, escriba su mensaje" placeholder="Ingrese su mensaje... *"></textarea>
+					<div class="validation"></div>
+				  </div>
+				  <div class="mb-3">
+					<div class="g-recaptcha" data-sitekey="6Leu2k4qAAAAACu-yEaScprZs9xAk6hj3qIUs6FM"></div>
+				  </div>
+				  <div class="text-center">
+					<button type="submit" class="sm-form" id=""
+					  name="template-contactform-botcheck" style="border-radius: 80px; width: 100%;">Enviar mensaje</button>
+				  </div>
+				  <input type="hidden" name="prefix" value="template-contactform-">
+				</form>
+			  </div>
+			</div>
+		  </section>
 
 
 
 
 
+			</div>
+		</section><!-- #content end -->
 
-
-  </div>
-  </div>
-
-
-
-  </section>
-  <!-- #content end -->
-
-
-
-
-  <!-- Footer
+		<!-- Footer
 		============================================= -->
-  <footer id="footer" style="background-color: #fff">
-    <div class="container">
-      <!-- Footer Widgets
+		<footer id="footer" class="border-0" style="background-color: #155BBC; padding-top: 80px">
+
+			<div class="container">
+
+				<!-- Footer Widgets
 				============================================= -->
-      <div class="footer-widgets-wrap">
-        <div class="row clearfix">
-          <div class="col-lg-5">
-            <div class="widget clearfix">
-              <div class="row clearfix">
-                <div class="col-lg-8 bottommargin-sm clearfix" style="color: #888">
-                  <b><a>USITEL</a></b>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Odio, consequatur facere molestiae iusto atque.
-                  </p>
+				<div class="footer-widgets-wrap dark pb-5 clearfix">
 
-                  <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                  </a>
+					<div class="row">
 
-                  <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-twitter">
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
-                  </a>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget clearfix">
 
-                  <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-gplus">
-                    <i class="icon-gplus"></i>
-                    <i class="icon-gplus"></i>
-                  </a>
+								<h4 class="ls0 mb-4 nott text-white">Features</h4>
 
-                  <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-pinterest">
-                    <i class="icon-pinterest"></i>
-                    <i class="icon-pinterest"></i>
-                  </a>
+								<ul class="list-unstyled ml-0">
+									<li class="mb-2"><a href="#">Help Center</a></li>
+									<li class="mb-2"><a href="#">Paid with Moblie</a></li>
+									<li class="mb-2"><a href="#">Status</a></li>
+									<li class="mb-2"><a href="#">Contact Support</a></li>
+								</ul>
 
-                  <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-vimeo">
-                    <i class="icon-vimeo"></i>
-                    <i class="icon-vimeo"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget clearfix">
 
-          <div class="col-lg-7">
-            <div class="row col-mb-30">
-              <div class="col-lg-4">
-                <div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-                  <h4>In News</h4>
+								<h4 class="ls0 mb-4 nott text-white">Support</h4>
 
-                  <ul>
-                    <li>
-                      <a href="https://codex.wordpress.org/">Documentation</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/plugins/">Plugins</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/">Support Forums</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/themes/">Themes</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-                  <h4>About Us</h4>
+								<ul class="list-unstyled ml-0">
+									<li class="mb-2"><a href="#">Home</a></li>
+									<li class="mb-2"><a href="#">About</a></li>
+									<li class="mb-2"><a href="#">FAQs</a></li>
+									<li class="mb-2"><a href="#">Support</a></li>
+								</ul>
 
-                  <ul>
-                    <li>
-                      <a href="https://codex.wordpress.org/">Documentation</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/plugins/">Plugins</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/">Support Forums</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/themes/">Themes</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-                  <h4>Support</h4>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget clearfix">
 
-                  <ul>
-                    <li>
-                      <a href="https://codex.wordpress.org/">Documentation</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/plugins/">Plugins</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/support/">Support Forums</a>
-                    </li>
-                    <li>
-                      <a href="https://wordpress.org/extend/themes/">Themes</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+								<h4 class="ls0 mb-4 nott text-white">Trending</h4>
 
-    <!-- Copyrights
+								<ul class="list-unstyled ml-0">
+									<li class="mb-2"><a href="#">Shop</a></li>
+									<li class="mb-2"><a href="#">Portfolio</a></li>
+									<li class="mb-2"><a href="#">Blog</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget clearfix">
+
+								<h4 class="ls0 mb-4 nott text-white">Get to Know us</h4>
+
+								<ul class="list-unstyled ml-0">
+									<li class="mb-2"><a href="#">Corporate</a></li>
+									<li class="mb-2"><a href="#">Agency</a></li>
+									<li class="mb-2"><a href="#">eCommerce</a></li>
+									<li class="mb-2"><a href="#">Personal</a></li>
+								</ul>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4">
+							<div id="instagram" class="widget clearfix">
+
+								<h4 class="ls0 mb-4 nott text-white">Instagram Photos</h4>
+								<div id="instagram-photos" class="instagram-photos masonry-thumbs grid-5" data-user="blog.canvastemplate" data-count="10"></div>
+
+							</div>
+						</div>
+
+						<div class="line"></div>
+
+						<div class="row">
+							<div class="col-sm-3">
+								<a href="index.html"><img src="demos/coworking/images/logo-footer.png" alt="Logo Footer" class="mb-4" height="20"></a>
+								<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="#" class="social-icon si-small si-light si-facebook" title="Facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="#" class="social-icon si-small si-light si-twitter" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="#" class="social-icon si-small si-light si-github" title="Github">
+									<i class="icon-github"></i>
+									<i class="icon-github"></i>
+								</a>
+								<a href="#" class="social-icon si-small si-light si-instagram" title="instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+							</div>
+							<div class="col-sm-9">
+								<ul class="list-numbers">
+									<li class="text-white-50 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores voluptatum corporis, repellat assumenda, cumque labore nam fuga deserunt harum, magni asperiores iure? Quos nobis molestiae dolorum obcaecati ad omnis, sint.</li>
+									<li class="text-white-50 font-weight-light mb-0">Completely embrace real-time systems whereas fully tested schemas. Synergistically actualize state of the art functionalities vis-a-vis cross-platform data. Conveniently reinvent web-enabled bandwidth via cost effective e-tailers. Proactively engage compelling outsourcing after virtual synergy. Distinctively formulate granular.
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Copyrights
 			============================================= -->
-    <div id="copyrights" class="bg-transparent pt-0">
-      <div class="container clearfix">
-        <div class="w-100 text-center text-md-left">
-          Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br />
-          <div class="copyright-links">
-            <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- #copyrights end -->
-  </footer>
-  <!-- #footer end -->
-  </div>
-  <!-- #wrapper end -->
+			<div id="copyrights" class="bg-transparent dark pt-0">
 
-  <!-- Go To Top
+				<div class="line mt-0"></div>
+
+				<div class="container clearfix">
+
+					<div class="row">
+						<div class="col-12">
+							<p class="mb-2 text-white-50">Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.</p>
+							<div class="copyright-links text-white-50"><a href="#" class="text-white-50">Terms of Use</a> / <a href="#" class="text-white-50">Privacy Policy</a></div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
 	============================================= -->
-  <div id="gotoTop" class="icon-angle-up"></div>
+	<div id="gotoTop" class="icon-angle-up"></div>
 
-  <!-- JavaScripts
+	<!-- JavaScripts
 	============================================= -->
-  <script src="js/jquery.js"></script>
-  <script src="js/plugins.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
 
-  <!-- Footer Scripts
+	<!-- Footer Scripts
 	============================================= -->
-  <script src="js/functions.js"></script>
+	<script src="js/functions.js"></script>
 
-  <script>
-    jQuery(document).ready(function ($) {
-      $("[data-pricing-plan]").click(function () {
-        $("#get-started-form")
-          .find("#get-started-form-package")
-          .val($(this).attr("data-pricing-plan"));
-        $("#get-started-form")
-          .find("#modal-get-started-package")
-          .html($(this).attr("data-pricing-plan"));
-      });
-    });
-  </script>
 </body>
-
 </html>
