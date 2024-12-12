@@ -41,7 +41,9 @@
 
 		<!-- Header
 		============================================= false hace que no se achique el nav-->
-		<header id="header" class="border-bottom-5" style="border-bottom: 1px solid #d3d3d3; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" data-sticky-shrink="true">
+		<header id="header" class="border-bottom-5"
+			style="border-bottom: 1px solid #d3d3d3; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"
+			data-sticky-shrink="true">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -79,22 +81,22 @@
 
 							<ul class="menu-container">
 								<li class="menu-item current"><a class="menu-link" href="#">
-									<div>Home</div>
-								</a></li>
+										<div>Home</div>
+									</a></li>
 								<li class="menu-item"><a class="menu-link" href="#nosotros">
-									<div>Nosotros</div>
-								</a></li>
+										<div>Nosotros</div>
+									</a></li>
 								<li class="menu-item"><a class="menu-link" href="#servicios">
-									<div>Servicios</div>
-								</a></li>
+										<div>Servicios</div>
+									</a></li>
 								<li class="menu-item"><a class="menu-link" href="#clientesID">
-									<div>Clientes</div>
-								</a></li>
+										<div>Clientes</div>
+									</a></li>
 								<li class="menu-item"><a class="menu-link" href="#contacto">
-									<div>Contacto</div>
-								</a></li>
+										<div>Contacto</div>
+									</a></li>
 							</ul>
-							
+
 
 						</nav><!-- #primary-menu end -->
 
@@ -133,17 +135,23 @@
 
 				<div class="overflow-hidden parallax d-flex align-items-center"
 					data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -400px;"
-					style="background-image: url('demos/coworking/images/hero.jpg'); background-size: cover; height: 600px; width: 100%;">
-					<div class="container">
+					style="background-image: url(img/fondohd.png); background-size: cover; height: 600px; width: 100%; position: relative;">
+
+					<!-- Overlay -->
+					<div
+						style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+					</div>
+
+					<div class="container" style="position: relative; z-index: 2;">
 						<div class="row">
 							<div class="col-lg-6">
-								<h2 class="text-white">Combinamos tecnología, servicios y experiencia para optimizar
-									procesos y potenciar la gestión operativa y el talento humano.</h2>
+								<h2 class="text-white"><b>Combinamos tecnología, servicios y experiencia para optimizar
+									procesos y potenciar la gestión operativa y el talento humano.</b></h2>
 							</div>
-
 						</div>
 					</div>
 				</div>
+
 
 				<div class="bg-theme-light">
 					<div class="shadow-sm hero-features dark shadow" style="background-color: #16DB93;">
@@ -220,7 +228,7 @@
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<div class="card shadow-sm border-light">
-									<img src="demos/coworking/images/features/3.jpg" alt="Telecobranzas"
+									<img src="img/call-center-customer-service-tips-scaled.jpeg" alt="Telecobranzas"
 										class="card-img-top">
 									<div class="card-body">
 										<h5 class="card-title font-weight-semibold color">Telecobranzas</h5>
@@ -229,8 +237,7 @@
 									</div>
 								</div>
 								<div class="card shadow-sm border-light mt-4">
-									<img src="demos/coworking/images/features/2.jpg" alt="Marketing digital"
-										class="card-img-top">
+									<img src="img/soporte.jpg" alt="Marketing digital" class="card-img-top">
 									<div class="card-body">
 										<h5 class="card-title font-weight-semibold color">Marketing digital</h5>
 										<p class="card-text">Creamos campañas estratégicas que conectan con tu
@@ -240,8 +247,7 @@
 							</div>
 							<div class="col-md-3 col-sm-6 pl-sm-3 mt-3 mt-sm-0">
 								<div class="card shadow-sm border-light">
-									<img src="demos/coworking/images/features/1.jpg" alt="Customer services"
-										class="card-img-top">
+									<img src="img/efe.png" alt="Customer services" class="card-img-top">
 									<div class="card-body">
 										<h5 class="card-title font-weight-semibold color">Customer services</h5>
 										<p class="card-text">Brindamos soporte al cliente de alta calidad, mejorando la
@@ -259,7 +265,8 @@
 
 						<!-- Consultoría -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/consultor.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/consultor.png"
+									alt=""></i>
 							<h4 class="mb-3">Consultoría</h4>
 							<p class="text-muted">Ofrecemos asesoramiento estratégico para optimizar procesos, mejorar
 								la experiencia del cliente y alcanzar los objetivos de tu negocio.</p>
@@ -267,7 +274,8 @@
 
 						<!-- Ventas -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/ventas.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/ventas.png"
+									alt=""></i>
 							<h4 class="mb-3">Ventas</h4>
 							<p class="text-muted">Impulsamos el crecimiento de tu negocio con estrategias de ventas
 								efectivas y adaptadas a las necesidades de tu mercado.</p>
@@ -275,7 +283,8 @@
 
 						<!-- Servicio de Reclutamiento -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/reclutamiento.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img
+									src="img/iconos/reclutamiento.png" alt=""></i>
 							<h4 class="mb-3">Servicio de Reclutamiento</h4>
 							<p class="text-muted">Seleccionamos y capacitamos al mejor talento para garantizar un equipo
 								alineado con los objetivos de tu empresa.</p>
@@ -283,7 +292,8 @@
 
 						<!-- Campañas de WhatsApp -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/whatsapp.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/whatsapp.png"
+									alt=""></i>
 							<h4 class="mb-3">Campañas de WhatsApp</h4>
 							<p class="text-muted">Diseñamos campañas dinámicas y personalizadas que fortalecen la
 								conexión con clientes a través de mensajes efectivos y directos.</p>
@@ -291,7 +301,8 @@
 
 						<!-- CRM y Central Telefónica -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/telefono.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/telefono.png"
+									alt=""></i>
 							<h4 class="mb-3">CRM y Central Telefónica</h4>
 							<p class="text-muted">Implementamos soluciones integrales para gestionar clientes y mejorar
 								la comunicación de tu empresa de manera eficiente.</p>
@@ -299,7 +310,8 @@
 
 						<!-- Atención al Cliente -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/atencionalcliente.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img
+									src="img/iconos/atencionalcliente.png" alt=""></i>
 							<h4 class="mb-3">Atención al Cliente</h4>
 							<p class="text-muted">Proporcionamos soporte de calidad para fortalecer la relación con tus
 								clientes y garantizar su satisfacción.</p>
@@ -307,7 +319,8 @@
 
 						<!-- Automatización de Mails -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/mail.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/mail.png"
+									alt=""></i>
 							<h4 class="mb-3">Automatización de Mails</h4>
 							<p class="text-muted">Optimizamos la comunicación con sistemas automatizados, logrando mayor
 								eficiencia y velocidad en las respuestas.</p>
@@ -315,7 +328,8 @@
 
 						<!-- Cobranzas y Fundraising -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/salario.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/salario.png"
+									alt=""></i>
 							<h4 class="mb-3">Cobranzas y Fundraising</h4>
 							<p class="text-muted">Implementamos soluciones innovadoras para gestionar cobranzas y
 								campañas de recaudación, maximizando los resultados.</p>
@@ -323,7 +337,8 @@
 
 						<!-- Other Activities -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/informe.png" alt=""></i>
+							<i class="color ml-0 mb-4 i-plain d-block float-none"><img src="img/iconos/informe.png"
+									alt=""></i>
 							<h4 class="mb-3">Other Activities</h4>
 							<p class="text-muted">Apoyamos actividades adicionales que complementan las necesidades de
 								tu negocio, asegurando soluciones completas.</p>
@@ -752,44 +767,44 @@
 				</BR></BR>
 
 				<div class="container"
-				style="max-width: 100%; background-color: rgba(39, 38, 38, 0.911); color: whitesmoke; font-weight: bold; display: flex; flex-direction: column; justify-content: center; text-align: center; align-items: center;">
-				<div class="row col-mb-30 mt-5" style="width: 70%; text-align: center;">
-					<!-- Ventas Totales -->
-					<div class="col-md-4">
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter counter-xlarge text-dark font-weight-bolder">
-								<span style="color: white;" data-from="0" data-to="10" data-refresh-interval="2" data-speed="400"
-									data-comma="true"></span>
+					style="max-width: 100%; background-color: rgba(39, 38, 38, 0.911); color: whitesmoke; font-weight: bold; display: flex; flex-direction: column; justify-content: center; text-align: center; align-items: center;">
+					<div class="row col-mb-30 mt-5" style="width: 70%; text-align: center;">
+						<!-- Ventas Totales -->
+						<div class="col-md-4">
+							<div class="d-flex align-items-center justify-content-center">
+								<div class="counter counter-xlarge text-dark font-weight-bolder">
+									<span style="color: white;" data-from="0" data-to="10" data-refresh-interval="2"
+										data-speed="400" data-comma="true"></span>
+								</div>
+								<span>Proyectos<br>finalizados con éxito</span>
 							</div>
-							<span>Proyectos<br>finalizados con éxito</span>
+						</div>
+						<!-- Horas de Teleoperación -->
+						<div class="col-md-4">
+							<div class="d-flex align-items-center justify-content-center">
+								<div class="counter counter-xlarge text-dark font-weight-bolder">
+									<span style="color: white;" data-from="1" data-to="340" data-refresh-interval="50"
+										data-speed="900" data-comma="true"></span>
+								</div>
+								<span>Horas dedicadas<br>a nuestros clientes</span>
+							</div>
+						</div>
+						<!-- Datos Procesados -->
+						<div class="col-md-4">
+							<div class="d-flex align-items-center justify-content-center">
+								<div class="counter counter-xlarge text-dark font-weight-bolder">
+									<span style="color: white;" data-from="1" data-to="99.99" data-refresh-interval="30"
+										data-speed="900" data-comma="true" data-decimals="2"></span>
+								</div>
+								<span>Porcentaje de<br>satisfacción del cliente</span>
+							</div>
 						</div>
 					</div>
-					<!-- Horas de Teleoperación -->
-					<div class="col-md-4">
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter counter-xlarge text-dark font-weight-bolder">
-								<span style="color: white;" data-from="1" data-to="340" data-refresh-interval="50" data-speed="900"
-									data-comma="true"></span>
-							</div>
-							<span>Horas dedicadas<br>a nuestros clientes</span>
-						</div>
-					</div>
-					<!-- Datos Procesados -->
-					<div class="col-md-4">
-						<div class="d-flex align-items-center justify-content-center">
-							<div class="counter counter-xlarge text-dark font-weight-bolder">
-								<span style="color: white;" data-from="1" data-to="99.99" data-refresh-interval="30" data-speed="900"
-									data-comma="true" data-decimals="2"></span>
-							</div>
-							<span>Porcentaje de<br>satisfacción del cliente</span>
-						</div>
-					</div>
+					<div class="line line-sm mb-0"></div>
 				</div>
-				<div class="line line-sm mb-0"></div>
-			</div>
-			
-			<br><br><br><br>
-			
+
+				<br><br><br><br>
+
 
 				<!-- Trusted Client Section
 				============================================= -->
@@ -800,10 +815,11 @@
 								<h2>Confían en nosotros para crecer</h2>
 								<br>
 								<p class="parrafoClienteSoporte">
-									Empresas de diversos sectores eligen nuestras soluciones para transformar y optimizar sus procesos, logrando resultados excepcionales.
+									Empresas de diversos sectores eligen nuestras soluciones para transformar y
+									optimizar sus procesos, logrando resultados excepcionales.
 								</p>
 							</div>
-							
+
 
 
 							<!-- Clients Images -->
@@ -924,21 +940,24 @@
 								<div class="row">
 									<div class="col-sm-4 col-3">
 										<div class="counter color font-weight-semibold">
-											<span data-from="1" data-to="3" data-refresh-interval="2" data-speed="600"></span>+
+											<span data-from="1" data-to="3" data-refresh-interval="2"
+												data-speed="600"></span>+
 										</div>
 										<h5 class="mt-0 font-weight-medium">Sucursales</h5>
 									</div>
-				
+
 									<div class="col-sm-4 col-6">
 										<div class="counter color font-weight-semibold">
-											<span data-from="100" data-to="4500" data-refresh-interval="100" data-speed="1500"></span>+
+											<span data-from="100" data-to="4500" data-refresh-interval="100"
+												data-speed="1500"></span>+
 										</div>
 										<h5 class="mt-0 font-weight-medium">Clientes activos</h5>
 									</div>
-				
+
 									<div class="col-sm-4 col-3">
 										<div class="counter color font-weight-semibold">
-											<span data-from="2" data-to="100" data-refresh-interval="30" data-speed="1500"></span>%
+											<span data-from="2" data-to="100" data-refresh-interval="30"
+												data-speed="1500"></span>%
 										</div>
 										<h5 class="mt-0 font-weight-medium">Satisfacción</h5>
 									</div>
@@ -957,7 +976,7 @@
 									data-lightbox="gallery-item"><img class="op-ts h-op-09"
 										src="demos/coworking/images/location/thumbs/1.jpg" alt="Gallery Thumb 1"></a>
 								<div class="grid-item"><iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.2154950434!2d-58.45707462460973!3d-34.55220667297277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42ef5659b5f%3A0x227809b1eeb18a64!2sManuel%20Ugarte%201667%2C%20C1428BRC%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1734027770825!5m2!1ses!2sar" 
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.2154950434!2d-58.45707462460973!3d-34.55220667297277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42ef5659b5f%3A0x227809b1eeb18a64!2sManuel%20Ugarte%201667%2C%20C1428BRC%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1734027770825!5m2!1ses!2sar"
 										width="500" height="334" allowfullscreen style="border:0;"></iframe></div>
 								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/2.jpg"
 									data-lightbox="gallery-item"><img class="op-ts h-op-09"
@@ -991,7 +1010,8 @@
 											</div>
 
 											<a href="mailto:noreply@canvas.com"
-												class="button button-rounded m-0 nott font-weight-semibold ls0" style="border-radius: 25px;">Whatsapp</a>
+												class="button button-rounded m-0 nott font-weight-semibold ls0"
+												style="border-radius: 25px;">Whatsapp</a>
 										</div>
 									</div>
 								</div>
@@ -1052,7 +1072,8 @@
 								</div>
 								<div class="text-center">
 									<button type="submit" class="sm-form" id="" name="template-contactform-botcheck"
-										style="border-radius: 80px; width: 100%; background-color: #16DB93;">Enviar mensaje</button>
+										style="border-radius: 80px; width: 100%; background-color: #16DB93;">Enviar
+										mensaje</button>
 								</div>
 								<input type="hidden" name="prefix" value="template-contactform-">
 							</form>
@@ -1072,9 +1093,9 @@
 		<footer id="footer" class="dark border-0">
 			<div class="container center">
 				<div class="footer-widgets-wrap">
-		
+
 					<div class="row mx-auto clearfix">
-		
+
 						<!-- Links -->
 						<div class="col-lg-4">
 							<div class="widget clearfix">
@@ -1093,13 +1114,13 @@
 								</ul>
 							</div>
 						</div>
-		
+
 						<!-- Social Media -->
 						<div class="col-lg-4">
 							<div class="widget subscribe-widget clearfix" data-loader="button">
 								<h4 style="color: white;">GREENC</h4>
 								<div class="widget-subscribe-form-result"></div>
-		
+
 								<div class="center topmargin-sm">
 									<a target="_blank" href="https://web.facebook.com"
 										class="social-icon inline-block border-0 si-small si-facebook" title="Facebook">
@@ -1117,8 +1138,7 @@
 										<i class="icon-instagram"></i>
 										<i class="icon-instagram"></i>
 									</a>
-									<a target="_blank"
-										href="https://www.linkedin.com"
+									<a target="_blank" href="https://www.linkedin.com"
 										class="social-icon inline-block border-0 si-small si-linkedin" title="LinkedIn">
 										<i class="icon-linkedin"></i>
 										<i class="icon-linkedin"></i>
@@ -1126,29 +1146,30 @@
 								</div>
 							</div>
 						</div>
-		
+
 						<!-- Contact Information -->
 						<div class="col-lg-4">
 							<div class="widget clearfix">
 								<h4 style="color: white;">Contacto</h4>
-								<p style="font-size: medium;" class="lead">Calle 1234<br>Ciudad de Buenos Aires, Argentina</p>
+								<p style="font-size: medium;" class="lead">Calle 1234<br>Ciudad de Buenos Aires,
+									Argentina</p>
 								<p>Teléfono: <a href="tel:+541123456789" style="color: white;">+54 11 2345 6789</a></p>
 								<p>Email: <a href="mailto:info@greenc.com" style="color: white;">info@greenc.com</a></p>
 							</div>
 						</div>
-		
+
 					</div>
-		
+
 				</div>
 			</div>
-		
+
 			<div id="copyrights">
 				<div class="container center clearfix">
 					GREENC | INNOVACIÓN EN TECNOLOGÍA Y TELECOMUNICACIONES
 				</div>
 			</div>
 		</footer>
-		
+
 
 	</div><!-- #wrapper end -->
 
