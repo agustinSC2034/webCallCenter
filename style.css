@@ -1,3 +1,5 @@
+
+
 /*Contacto*/
 /* Estilo base para los inputs */
 .contactForm .form-control {
@@ -86,8 +88,8 @@
   
   /* Efecto hover en los enlaces de idioma */
   .menu-item-language .sub-menu .menu-link:hover {
-	background-color: #f0f0f0; /* Color al pasar el cursor */
-	color: #164f85; /* Color del texto en hover */
+	background-color: #16DB93; /* Color al pasar el cursor */
+	color: #16DB93; /* Color del texto en hover */
   }
   
   /* Mostrar el submenú al pasar el cursor por el contenedor */
@@ -1517,6 +1519,8 @@
 	/* Asegura que el menú ocupe todo el espacio disponible */
 	padding-right: 0;
 }
+
+.primary-menu
 
 /* Lista del menú */
 .menu-container {
@@ -5644,7 +5648,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .menu-link:hover {
-	color: #3b9bea;
+	color: #16DB93;
 	font-weight: bold;
 }
 
@@ -5664,7 +5668,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover>.menu-link,
 .menu-item.current>.menu-link {
-	color: #3b9bea;
+	color: #16DB93;
 }
 
 .menu-item.sub-menu>.menu-link>div {}
@@ -5935,7 +5939,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		background-color: #FFF;
 		box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
 		border: 1px solid #EEE;
-		border-top: 2px solid #0e69d9;
+		border-top: 2px solid #16DB93;
 		z-index: 399;
 		top: 100%;
 		left: 0;

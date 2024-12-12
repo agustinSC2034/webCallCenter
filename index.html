@@ -41,7 +41,7 @@
 
 		<!-- Header
 		============================================= false hace que no se achique el nav-->
-		<header id="header" class="border-bottom-0" data-sticky-shrink="true">
+		<header id="header" class="border-bottom-5" style="border-bottom: 1px solid #d3d3d3; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" data-sticky-shrink="true">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -78,22 +78,23 @@
 						<nav class="primary-menu">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-coworking.html">
-										<div>Home</div>
-									</a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-about.html">
-										<div>Nosotros</div>
-									</a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-price.html">
-										<div>Servicios</div>
-									</a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-single.html">
-										<div>Clientes</div>
-									</a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-contact.html">
-										<div>Contacto</div>
-									</a></li>
+								<li class="menu-item current"><a class="menu-link" href="#">
+									<div>Home</div>
+								</a></li>
+								<li class="menu-item"><a class="menu-link" href="#nosotros">
+									<div>Nosotros</div>
+								</a></li>
+								<li class="menu-item"><a class="menu-link" href="#servicios">
+									<div>Servicios</div>
+								</a></li>
+								<li class="menu-item"><a class="menu-link" href="#clientesID">
+									<div>Clientes</div>
+								</a></li>
+								<li class="menu-item"><a class="menu-link" href="#contacto">
+									<div>Contacto</div>
+								</a></li>
 							</ul>
+							
 
 						</nav><!-- #primary-menu end -->
 
@@ -105,7 +106,7 @@
 
 		<!-- Content
 		============================================= -->
-		<section id="content">
+		<section id="content" itemid="home">
 
 			<div class="content-wrap pt-3 pb-0">
 
@@ -190,7 +191,7 @@
 				</div>
 
 
-				<div class="section mt-0 pt-md-5 pt-0">
+				<div class="section mt-0 pt-md-5 pt-0" id="nosotros">
 					<div class="container clearfix">
 						<div class="row align-items-md-center mb-5">
 							<div class="col-md-6 pr-5">
@@ -253,7 +254,7 @@
 				</div>
 
 
-				<div class="container">
+				<div class="container" id="servicios">
 					<div class="row justify-content-between">
 
 						<!-- Consultoría -->
@@ -909,7 +910,7 @@
 
 
 
-				<div class="section p-0 bg-theme-light clearfix">
+				<div class="section p-0 bg-theme-light clearfix" id="contacto">
 					<br><br><br>
 					<div class="container">
 						<div class="row mb-2">
@@ -919,7 +920,7 @@
 									<h2 class="nott font-weight-semibold">Nuestras oficinas</h2>
 								</div>
 							</div>
-				
+
 							<div class="col-lg-6 col-md-8">
 								<div class="row">
 									<div class="col-sm-4 col-3">
@@ -944,39 +945,54 @@
 									</div>
 								</div>
 							</div>
+
 						</div>
+
 					</div>
-					<div id="locations-carousel" class="owl-carousel carousel-widget owl-carousel-full clearfix" data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="200" data-margin="0" data-nav="true" data-pagi="true" data-items="1">
+					<div id="locations-carousel" class="owl-carousel carousel-widget owl-carousel-full clearfix"
+						data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="200" data-margin="0"
+						data-nav="true" data-pagi="true" data-items="1">
 						<div>
 							<div class="masonry-thumbs grid-container grid-5" data-big="2" data-lightbox="gallery">
-								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/1.jpg" data-lightbox="gallery-item">
-									<img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/1.jpg" alt="Gallery Thumb 1">
-								</a>
-								<div class="grid-item">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835253572242!2d144.95373531531297!3d-37.817327679751735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1554124945593!5m2!1sen!2sin" 
-											width="500" height="334" allowfullscreen style="border:0;"></iframe>
-								</div>
-								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/2.jpg" data-lightbox="gallery-item">
-									<img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/2.jpg" alt="Gallery Thumb 2">
-								</a>
-								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/3.jpg" data-lightbox="gallery-item">
-									<img class="op-ts h-op-09" src="demos/coworking/images/location/thumbs/3.jpg" alt="Gallery Thumb 3">
-								</a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/1.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/1.jpg" alt="Gallery Thumb 1"></a>
+								<div class="grid-item"><iframe
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835253572242!2d144.95373531531297!3d-37.817327679751735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1554124945593!5m2!1sen!2sin"
+										width="500" height="334" allowfullscreen style="border:0;"></iframe></div>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/2.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/2.jpg" alt="Gallery Thumb 12"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/3.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/3.jpg" alt="Gallery Thumb 3"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/4.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/4.jpg" alt="Gallery Thumb 4"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/5.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/5.jpg" alt="Gallery Thumb 5"></a>
+								<a class="grid-item" href="demos/coworking/images/location/thumbs/full/6.jpg"
+									data-lightbox="gallery-item"><img class="op-ts h-op-09"
+										src="demos/coworking/images/location/thumbs/6.jpg" alt="Gallery Thumb 6"></a>
 							</div>
 							<div class="container">
 								<div class="card shadow bg-white">
 									<div class="card-body">
-										<h3 class="mb-4">Buenos Aires</h3>
+										<h3 class="mb-4">Argentina</h3>
 										<div style="font-size: 16px;">
 											<address>
-												Manuel Ugarte 1667,<br>CABA, Buenos Aires,<br>Argentina
+												Calle ejemplo 124,<br>Belgrano,<br>Buenos aires
 											</address>
 											<div class="mb-4" style="font-size: 15px;">
-												<small class="text-black-50 d-block mb-2">Teléfonos:</small>
-												<a href="tel:+(54)11-234-532-45" class="text-dark d-block mb-1">+(54)11-234-532-45</a>
-												<a href="tel:+(54)11-222-333-44" class="text-dark">+(54)11-222-333-44</a>
+												<small class="text-black-50 d-block mb-2">Numero</small>
+												<a href="tel:+(61)3-222-333-44"
+													class="text-dark d-block mb-1">+(61)3-222-333-44</a>
+												<a href="tel:+(61)3-234-532-45" class="text-dark">+(61)3-234-532-45</a>
 											</div>
-											<a href="mailto:info@tuempresa.com" class="button button-rounded m-0 nott font-weight-semibold ls0">Envíanos un email</a>
+
+											<a href="mailto:noreply@canvas.com"
+												class="button button-rounded m-0 nott font-weight-semibold ls0" style="border-radius: 25px;">Whatsapp</a>
 										</div>
 									</div>
 								</div>
@@ -985,7 +1001,6 @@
 					</div>
 					<br><br>
 				</div>
-				
 
 
 
@@ -993,7 +1008,7 @@
 				<!-- Contacto
 		=============================================  -->
 				<section id="content">
-					<div class="content-wrap pb-0 contactoForm1" id="contacto">
+					<div class="content-wrap pb-0 contactoForm1" id="">
 						<div class="container mb-3 center contactoForm2">
 							<h2 id="">Contactanos</h2>
 						</div>
@@ -1038,7 +1053,7 @@
 								</div>
 								<div class="text-center">
 									<button type="submit" class="sm-form" id="" name="template-contactform-botcheck"
-										style="border-radius: 80px; width: 100%;">Enviar mensaje</button>
+										style="border-radius: 80px; width: 100%; background-color: #16DB93;">Enviar mensaje</button>
 								</div>
 								<input type="hidden" name="prefix" value="template-contactform-">
 							</form>
