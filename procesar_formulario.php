@@ -62,8 +62,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   // Procesar los datos (por ejemplo, enviar un correo electrónico)
-  $to = "formularioittel@gmail.com";
-  $subject = "Mensaje desde www.it-tel.com.ar";
+  $to = "greenc-formulario@gmail.com";
+  $subject = "Mensaje desde www.greenc.com.ar";
   $body = "Nombre: " . $name . "\n";
   $body .= "Correo electrónico: " . $email . "\n";
   $body .= "Asunto: " . $subject . "\n";
