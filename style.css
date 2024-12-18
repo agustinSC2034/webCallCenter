@@ -48,6 +48,12 @@
 	.clientesMovil {
 		display: flex;
 	}
+	.bg-theme-light{
+		display: none;
+	}
+	.parallax1{
+		margin-bottom: 10%;
+	}
 }
 
 
@@ -3018,6 +3024,15 @@ img.lazy:not([src]) {
 }
 
 .parallax {
+	background-color: transparent;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	will-change: transform;
+}
+
+.parallax1{
 	background-color: transparent;
 	background-attachment: fixed;
 	background-position: 50% 0;
